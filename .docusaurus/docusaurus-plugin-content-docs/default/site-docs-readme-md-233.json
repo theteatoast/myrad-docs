@@ -1,0 +1,19 @@
+{
+  "unversionedId": "README",
+  "id": "README",
+  "title": "MYRAD: Decentralized Data Marketplace",
+  "description": "MYRAD is a decentralized data marketplace for tokenizing, trading, and monetizing datasets.",
+  "source": "@site/docs/README.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "The Problem",
+    "permalink": "/problem"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "problem",
+  "id": "problem",
+  "title": "The Problem",
+  "description": "In today's data economy, datasets are often locked behind centralized platforms or sold through opaque intermediaries.",
+  "source": "@site/docs/problem.md",
+  "sourceDirName": ".",
+  "slug": "/problem",
+  "permalink": "/problem",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MYRAD: Decentralized Data Marketplace",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Why MYRAD",
+    "permalink": "/why-this"
+  }
+}

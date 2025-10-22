@@ -1,0 +1,23 @@
+{
+  "unversionedId": "features",
+  "id": "features",
+  "title": "Core Features",
+  "description": "📤 Dataset Tokenization",
+  "source": "@site/docs/features.md",
+  "sourceDirName": ".",
+  "slug": "/features",
+  "permalink": "/features",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Architecture",
+    "permalink": "/architecture"
+  },
+  "next": {
+    "title": "Vision & Roadmap",
+    "permalink": "/vision"
+  }
+}

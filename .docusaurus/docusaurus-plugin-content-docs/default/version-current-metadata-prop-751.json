@@ -1,0 +1,88 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "MYRAD: Decentralized Data Marketplace",
+        "href": "/",
+        "docId": "README"
+      },
+      {
+        "type": "link",
+        "label": "The Problem",
+        "href": "/problem",
+        "docId": "problem"
+      },
+      {
+        "type": "link",
+        "label": "Why MYRAD",
+        "href": "/why-this",
+        "docId": "why-this"
+      },
+      {
+        "type": "link",
+        "label": "System Architecture",
+        "href": "/architecture",
+        "docId": "architecture"
+      },
+      {
+        "type": "link",
+        "label": "Core Features",
+        "href": "/features",
+        "docId": "features"
+      },
+      {
+        "type": "link",
+        "label": "Vision & Roadmap",
+        "href": "/vision",
+        "docId": "vision"
+      }
+    ]
+  },
+  "docs": {
+    "architecture": {
+      "id": "architecture",
+      "title": "System Architecture",
+      "description": "MYRAD follows a modular, decentralized architecture combining blockchain logic, backend orchestration, and an interactive frontend.",
+      "sidebar": "tutorialSidebar"
+    },
+    "features": {
+      "id": "features",
+      "title": "Core Features",
+      "description": "📤 Dataset Tokenization",
+      "sidebar": "tutorialSidebar"
+    },
+    "problem": {
+      "id": "problem",
+      "title": "The Problem",
+      "description": "In today's data economy, datasets are often locked behind centralized platforms or sold through opaque intermediaries.",
+      "sidebar": "tutorialSidebar"
+    },
+    "README": {
+      "id": "README",
+      "title": "MYRAD: Decentralized Data Marketplace",
+      "description": "MYRAD is a decentralized data marketplace for tokenizing, trading, and monetizing datasets.",
+      "sidebar": "tutorialSidebar"
+    },
+    "vision": {
+      "id": "vision",
+      "title": "Vision & Roadmap",
+      "description": "MYRAD aims to redefine data as a digital asset class — empowering creators, buyers, and researchers to interact freely without intermediaries.",
+      "sidebar": "tutorialSidebar"
+    },
+    "why-this": {
+      "id": "why-this",
+      "title": "Why MYRAD",
+      "description": "MYRAD transforms how data is owned, priced, and distributed.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

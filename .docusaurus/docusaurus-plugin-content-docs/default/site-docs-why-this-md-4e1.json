@@ -1,0 +1,23 @@
+{
+  "unversionedId": "why-this",
+  "id": "why-this",
+  "title": "Why MYRAD",
+  "description": "MYRAD transforms how data is owned, priced, and distributed.",
+  "source": "@site/docs/why-this.md",
+  "sourceDirName": ".",
+  "slug": "/why-this",
+  "permalink": "/why-this",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Problem",
+    "permalink": "/problem"
+  },
+  "next": {
+    "title": "System Architecture",
+    "permalink": "/architecture"
+  }
+}

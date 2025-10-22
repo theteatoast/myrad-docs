@@ -1,0 +1,23 @@
+{
+  "unversionedId": "architecture",
+  "id": "architecture",
+  "title": "System Architecture",
+  "description": "MYRAD follows a modular, decentralized architecture combining blockchain logic, backend orchestration, and an interactive frontend.",
+  "source": "@site/docs/architecture.md",
+  "sourceDirName": ".",
+  "slug": "/architecture",
+  "permalink": "/architecture",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why MYRAD",
+    "permalink": "/why-this"
+  },
+  "next": {
+    "title": "Core Features",
+    "permalink": "/features"
+  }
+}

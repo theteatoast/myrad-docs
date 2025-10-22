@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "README",
+          "docs": [
+            {
+              "id": "architecture",
+              "path": "/architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "features",
+              "path": "/features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "problem",
+              "path": "/problem",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vision",
+              "path": "/vision",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "why-this",
+              "path": "/why-this",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "README"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vision",
+  "id": "vision",
+  "title": "Vision & Roadmap",
+  "description": "MYRAD aims to redefine data as a digital asset class — empowering creators, buyers, and researchers to interact freely without intermediaries.",
+  "source": "@site/docs/vision.md",
+  "sourceDirName": ".",
+  "slug": "/vision",
+  "permalink": "/vision",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Features",
+    "permalink": "/features"
+  }
+}
