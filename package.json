@@ -8,10 +8,10 @@
     "serve": "docusaurus serve",
     "clean": "docusaurus clear"
   },
-  "dependencies": {
-    "@docusaurus/core": "^2.4.0",
-    "@docusaurus/preset-classic": "^2.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+ "dependencies": {
+  "@docusaurus/core": "^2.4.0",
+  "@docusaurus/preset-classic": "^2.4.0",
+  "react": "18.2.0",
+  "react-dom": "18.2.0"
+}
 }
