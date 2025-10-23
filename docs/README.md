@@ -9,5 +9,3 @@ This documentation covers:
 - The solution and philosophy behind it
 - System architecture
 - Core features and design principles
-
-🔗 **Live Demo:** [https://myradhq.xyz](https://myradhq.xyz)
