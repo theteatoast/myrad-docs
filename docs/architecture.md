@@ -4,7 +4,7 @@ MYRAD follows a **modular, decentralized architecture** combining blockchain log
 
 ---
 
-## 🧱 Layers Overview
+##  Layers Overview
 
 ### 1. Blockchain Layer (Base Sepolia)
 - Smart contracts deployed using **Hardhat**
@@ -26,7 +26,7 @@ MYRAD follows a **modular, decentralized architecture** combining blockchain log
 
 ---
 
-## 🔄 Data Flow
+##  Data Flow
 
 1. **Dataset Upload** → IPFS (via Lighthouse)  
 2. **Token Creation** → ERC20 via DataCoinFactory  
@@ -37,7 +37,7 @@ MYRAD follows a **modular, decentralized architecture** combining blockchain log
 
 ---
 
-## ⚙️ Infrastructure Summary
+##  Infrastructure Summary
 
 | Layer | Technology | Purpose |
 |-------|-------------|----------|
@@ -49,7 +49,7 @@ MYRAD follows a **modular, decentralized architecture** combining blockchain log
 
 ---
 
-## 🔮 Scalability Vision
+##  Scalability Vision
 - Transition to **Base Mainnet**  
 - **Off-chain data indexing** for advanced search  
 - **Multi-currency AMMs** (ETH, MATIC, etc.)  
