@@ -8,7 +8,7 @@
 ###  Decentralized Trading
 - Permissionless buying and selling of DataCoins  
 - Constant product AMM (`x × y = k`) ensures liquidity  
-- Transparent fee distribution (90% LP / 5% creator / 5% treasury)
+- Transparent fee distribution (85% LP / 10% creator / 5% treasury)
 
 ###  Burn-for-Download
 - Burn tokens to access datasets  
