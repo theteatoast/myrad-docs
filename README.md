@@ -1,3 +1,3 @@
-# MYrAD Docs (Docusaurus)
+# MYRAD DOCS
 
-This is a Docusaurus v2 documentation site for MYRAD.
+
