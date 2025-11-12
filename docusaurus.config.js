@@ -9,6 +9,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'myrad',
   projectName: 'myrad-docs',
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -16,7 +17,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/', // serve docs at site root
-          
+          editUrl: 'https://github.com/myrad/myrad-docs/edit/main/', // optional, for edit links
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -24,6 +25,7 @@ module.exports = {
       },
     ],
   ],
+
   themeConfig: {
     navbar: {
       title: 'MYRAD',
@@ -33,19 +35,28 @@ module.exports = {
       },
       items: [
         {
+          to: 'introduction', // link to docs home page instead of /
+          label: 'Docs',
+          position: 'left',
+        },
+        {
           href: 'https://myradhq.xyz',
           label: 'Website',
           position: 'right',
         },
       ],
     },
+
     footer: {
       style: 'dark',
       links: [
         {
           title: 'Docs',
           items: [
-            { label: 'Overview', to: '/' },
+            // link to your first doc file instead of /
+            { label: 'Overview', to: 'introduction' },
+            { label: 'Architecture', to: 'architecture' },
+            { label: 'Roadmap', to: 'strategy-roadmap' },
           ],
         },
         {
@@ -55,7 +66,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} MYrAD`,
+      copyright: `© ${new Date().getFullYear()} MYRAD`,
     },
   },
 };
