@@ -9,8 +9,7 @@ sidebar_position: 4
 
 MYRAD combines **on-chain logic** with **decentralized data storage** to enable trustless data ownership, transparent pricing, and automated monetization.
 
-Each dataset is stored using **IPFS**, and a unique **DataCoin (ERC-20)** is minted on-chain, directly linked to the dataset’s **content identifier (CID)**.  
-This connection allows every dataset to function as a self-contained, tradeable data economy.
+Each dataset is stored using **IPFS**, and a unique **DataCoin (ERC-20)** is minted on-chain, directly linked to the dataset’s **content identifier (CID)**. This connection allows every dataset to function as a self-contained, tradeable data economy.
 
 ## On-Chain Components
 
@@ -28,6 +27,22 @@ This connection allows every dataset to function as a self-contained, tradeable 
 | **Dataset Gateway** | Handles IPFS pinning, JWT-based access control, and dataset retrieval. |
 | **Reputation Engine** | Scores datasets using metadata accuracy, usage metrics, and community validation. |
 | **Enterprise API Layer** | Delivers stable, verified dataset access for enterprise clients and AI systems. |
+| **Data Quality Check** | Runs automated scans for malware, data validity, and duplicate datasets before minting. |
+
+---
+
+## Data Quality Check
+
+The **Data Quality Check (DQC)** layer ensures every dataset uploaded to MYRAD is safe, high-quality, and unique before it is minted and tokenized.
+
+| Step | Description |
+| --- | --- |
+| **1. Malware Scan (VirusTotal API)** | Each uploaded file is scanned via the **VirusTotal API** using its SHA-256 hash. If any malicious signatures are found, upload is blocked immediately. |
+| **2. Data Quality Evaluation** | A lightweight **quality scoring model** evaluates completeness, consistency, and structure of the dataset. Datasets below the minimum score are flagged for manual review. |
+| **3. Duplicate Detection** | A **duplicate-check algorithm** compares dataset fingerprints and metadata to detect duplicates. If a duplicate is found, upload is restricted. |
+| **4. ZK Validation (Optional)** | Uses **zero-knowledge (ZK)** proofs for privacy-preserving duplicate verification ensuring non-duplicate data without exposing content. |
+
+---
 
 ## DataCoin Lifecycle and Utility
 
@@ -41,10 +56,12 @@ The economic model is integrated directly into the system architecture:
 6. **Buy and Burn:** When a user purchases access, an equivalent value of DataCoin is spent. **50%** is permanently burned and **50%** is returned to the liquidity pool to maintain stability.
 
 No minting fees are charged.  
-The MYRAD Treasury provides around **$10 in initial liquidity and gas** to cover deployment and pool creation.  
-Creators can onboard data **at zero cost** and immediately start earning from usage and trading activity.
+
+The MYRAD Treasury provides around **$10 in initial liquidity and gas** to cover deployment and pool creation. Creators can onboard data **at zero cost** and immediately start earning from usage and trading activity.
 
 This ensures that every dataset has a self-sustaining token economy where access and speculation coexist in balance.
+
+---
 
 ## Economic Alignment
 
