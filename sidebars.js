@@ -1,11 +1,11 @@
 // sidebars.js
-module.exports = {
-  tutorialSidebar: [
-    'README',
-    'problem',
-    'why-this',
-    'architecture',
-    'features',
+export default {
+  docs: [
+    'introduction',
+    'problem-statement',
     'vision',
+    'architecture',
+    'tokenomics',
+    'strategy-roadmap',
   ],
 };
