@@ -1,27 +1,26 @@
-# Vision & Roadmap
+---
+id: vision
+title: Vision
+description: The mission and long-term vision of MYRAD.
+sidebar_position: 3
+---
 
-MYRAD aims to redefine **data as a digital asset class** — empowering creators, buyers, and researchers to interact freely without intermediaries.
+# Vision
 
-###  Vision
-- Democratize access to data monetization  
-- Enable trustless, global data exchange  
-- Integrate data markets into the DeFi ecosystem  
+MYRAD’s mission is to make **data a liquid, creator-owned digital asset**.
 
-###  Roadmap
-**Phase 1: Alpha (Live Now)**
-- Dataset upload, tokenization, and AMM trading  
-- Burn-to-download functionality  
-- Base Sepolia testnet deployment  
+We envision a future where every dataset is:
 
-**Phase 2: Expansion**
-- Mainnet support  
-- Creator onboarding
-- User authentication and profiles  
-- Dataset versioning  
-- Advanced filters and analytics  
+- **Tokenized** — represented by a verifiable, tradable asset.  
+- **Deflationary** — gaining value as it is used.  
+- **Accessible** — enabling frictionless exchange between creators, users, and enterprises.
 
-**Phase 3: Decentralized Governance**
-- DAO-based upgrades  
-- Community-driven curation and reputation  
-- Multi-currency support  
-- Mobile integration
+By combining decentralized token economics and accessible market infrastructure, MYRAD establishes a new financial layer for data — where ownership, access, and value are aligned.
+
+---
+
+## Long-Term Outlook
+
+- **Empower Creators:** Allow individuals and organizations to monetize data without intermediaries.  
+- **Fuel AI Growth:** Provide a transparent and scalable data layer for AI development.  
+- **Build Sustainable Economics:** Align incentives between creators, users, and liquidity providers for lasting ecosystem health.  
