@@ -13,15 +13,15 @@
           "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/gensay/Desktop/myrad-docs/sidebars.js",
-          "contentPath": "/home/gensay/Desktop/myrad-docs/docs",
-          "contentPathLocalized": "/home/gensay/Desktop/myrad-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\anind\\Desktop\\myrad-docs\\sidebars.js",
+          "contentPath": "C:\\Users\\anind\\Desktop\\myrad-docs\\docs",
+          "contentPathLocalized": "C:\\Users\\anind\\Desktop\\myrad-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "architecture",
               "id": "architecture",
               "title": "Architecture",
-              "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+              "description": "Technical and economic architecture of MYRAD’s DataCoin model.",
               "source": "@site/docs/architecture.md",
               "sourceDirName": ".",
               "slug": "/architecture",
@@ -33,7 +33,7 @@
               "frontMatter": {
                 "id": "architecture",
                 "title": "Architecture",
-                "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+                "description": "Technical and economic architecture of MYRAD’s DataCoin model.",
                 "sidebar_position": 4
               },
               "sidebar": "docs",
@@ -49,8 +49,8 @@
             {
               "unversionedId": "index",
               "id": "index",
-              "title": "Welcome to MYRAD",
-              "description": "Welcome to the MYRAD documentation. MYRAD enables you to monetize your datasets through blockchain technology.",
+              "title": "",
+              "description": "Welcome to the MYRAD documentation. MYRAD enables you to monetize your data through blockchain technology.",
               "source": "@site/docs/index.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -60,7 +60,7 @@
               "version": "current",
               "frontMatter": {
                 "id": "index",
-                "title": "Welcome to MYRAD",
+                "title": "",
                 "sidebar_label": "Home",
                 "slug": "/"
               },
@@ -74,7 +74,7 @@
               "unversionedId": "introduction",
               "id": "introduction",
               "title": "Introduction",
-              "description": "Overview of MYRAD and the Deflationary DataCoin (DDC) model.",
+              "description": "Overview of MYRAD and the DataCoin (DC) model.",
               "source": "@site/docs/introduction.md",
               "sourceDirName": ".",
               "slug": "/introduction",
@@ -86,7 +86,7 @@
               "frontMatter": {
                 "id": "introduction",
                 "title": "Introduction",
-                "description": "Overview of MYRAD and the Deflationary DataCoin (DDC) model.",
+                "description": "Overview of MYRAD and the DataCoin (DC) model.",
                 "sidebar_position": 1
               },
               "sidebar": "docs",
@@ -103,7 +103,7 @@
               "unversionedId": "problem-statement",
               "id": "problem-statement",
               "title": "Problem Statement",
-              "description": "The challenges with current data ownership, monetization, and access models.",
+              "description": "The structural challenges with current data ownership, monetization, and liquidity models.",
               "source": "@site/docs/problem-statement.md",
               "sourceDirName": ".",
               "slug": "/problem-statement",
@@ -115,7 +115,7 @@
               "frontMatter": {
                 "id": "problem-statement",
                 "title": "Problem Statement",
-                "description": "The challenges with current data ownership, monetization, and access models.",
+                "description": "The structural challenges with current data ownership, monetization, and liquidity models.",
                 "sidebar_position": 2
               },
               "sidebar": "docs",
@@ -132,7 +132,7 @@
               "unversionedId": "strategy-roadmap",
               "id": "strategy-roadmap",
               "title": "Strategy and Roadmap",
-              "description": "MYRAD’s growth phases and milestones.",
+              "description": "MYRAD’s phased plan for growth, ecosystem development, and market expansion.",
               "source": "@site/docs/strategy-roadmap.md",
               "sourceDirName": ".",
               "slug": "/strategy-roadmap",
@@ -144,7 +144,7 @@
               "frontMatter": {
                 "id": "strategy-roadmap",
                 "title": "Strategy and Roadmap",
-                "description": "MYRAD’s growth phases and milestones.",
+                "description": "MYRAD’s phased plan for growth, ecosystem development, and market expansion.",
                 "sidebar_position": 6
               },
               "sidebar": "docs",
@@ -157,7 +157,7 @@
               "unversionedId": "tokenomics",
               "id": "tokenomics",
               "title": "Tokenomics",
-              "description": "Token supply, allocation, and deflationary mechanics.",
+              "description": "Token supply, allocation, and deflationary mechanics for DataCoins.",
               "source": "@site/docs/tokenomics.md",
               "sourceDirName": ".",
               "slug": "/tokenomics",
@@ -169,7 +169,7 @@
               "frontMatter": {
                 "id": "tokenomics",
                 "title": "Tokenomics",
-                "description": "Token supply, allocation, and deflationary mechanics.",
+                "description": "Token supply, allocation, and deflationary mechanics for DataCoins.",
                 "sidebar_position": 5
               },
               "sidebar": "docs",

@@ -47,9 +47,8 @@ module.exports = {
           title: 'Docs',
           items: [
             { label: 'Home', to: '/' },
-            { label: 'Introduction', to: '/introduction' },
-            { label: 'Architecture', to: '/architecture' },
-            { label: 'Roadmap', to: '/strategy-roadmap' },
+            { label: 'Problem Statement', to: '/problem-statement'},
+            { label: 'Architecture', to: '/architecture' },                    
           ],
         },
         {

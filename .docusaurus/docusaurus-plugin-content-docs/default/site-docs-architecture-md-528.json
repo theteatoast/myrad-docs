@@ -2,7 +2,7 @@
   "unversionedId": "architecture",
   "id": "architecture",
   "title": "Architecture",
-  "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+  "description": "Technical and economic architecture of MYRAD’s DataCoin model.",
   "source": "@site/docs/architecture.md",
   "sourceDirName": ".",
   "slug": "/architecture",
@@ -14,7 +14,7 @@
   "frontMatter": {
     "id": "architecture",
     "title": "Architecture",
-    "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+    "description": "Technical and economic architecture of MYRAD’s DataCoin model.",
     "sidebar_position": 4
   },
   "sidebar": "docs",

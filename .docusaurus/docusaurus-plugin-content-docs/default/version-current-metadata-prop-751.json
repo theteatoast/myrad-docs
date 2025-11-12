@@ -73,37 +73,37 @@
     "architecture": {
       "id": "architecture",
       "title": "Architecture",
-      "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+      "description": "Technical and economic architecture of MYRAD’s DataCoin model.",
       "sidebar": "docs"
     },
     "index": {
       "id": "index",
       "title": "",
-      "description": "Welcome to the MYRAD documentation. MYRAD enables you to monetize your datasets through blockchain technology.",
+      "description": "Welcome to the MYRAD documentation. MYRAD enables you to monetize your data through blockchain technology.",
       "sidebar": "docs"
     },
     "introduction": {
       "id": "introduction",
       "title": "Introduction",
-      "description": "Overview of MYRAD and the Deflationary DataCoin (DDC) model.",
+      "description": "Overview of MYRAD and the DataCoin (DC) model.",
       "sidebar": "docs"
     },
     "problem-statement": {
       "id": "problem-statement",
       "title": "Problem Statement",
-      "description": "The challenges with current data ownership, monetization, and access models.",
+      "description": "The structural challenges with current data ownership, monetization, and liquidity models.",
       "sidebar": "docs"
     },
     "strategy-roadmap": {
       "id": "strategy-roadmap",
       "title": "Strategy and Roadmap",
-      "description": "MYRAD’s growth phases and milestones.",
+      "description": "MYRAD’s phased plan for growth, ecosystem development, and market expansion.",
       "sidebar": "docs"
     },
     "tokenomics": {
       "id": "tokenomics",
       "title": "Tokenomics",
-      "description": "Token supply, allocation, and deflationary mechanics.",
+      "description": "Token supply, allocation, and deflationary mechanics for DataCoins.",
       "sidebar": "docs"
     },
     "vision": {

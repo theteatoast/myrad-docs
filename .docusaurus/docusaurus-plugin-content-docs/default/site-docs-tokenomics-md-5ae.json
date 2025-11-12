@@ -2,7 +2,7 @@
   "unversionedId": "tokenomics",
   "id": "tokenomics",
   "title": "Tokenomics",
-  "description": "Token supply, allocation, and deflationary mechanics.",
+  "description": "Token supply, allocation, and deflationary mechanics for DataCoins.",
   "source": "@site/docs/tokenomics.md",
   "sourceDirName": ".",
   "slug": "/tokenomics",
@@ -14,7 +14,7 @@
   "frontMatter": {
     "id": "tokenomics",
     "title": "Tokenomics",
-    "description": "Token supply, allocation, and deflationary mechanics.",
+    "description": "Token supply, allocation, and deflationary mechanics for DataCoins.",
     "sidebar_position": 5
   },
   "sidebar": "docs",

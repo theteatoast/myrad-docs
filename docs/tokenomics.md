@@ -1,41 +1,58 @@
 ---
 id: tokenomics
 title: Tokenomics
-description: Token supply, allocation, and deflationary mechanics.
+description: Token supply, allocation, and deflationary mechanics for DataCoins.
 sidebar_position: 5
 ---
 
 # Tokenomics
 
-Each dataset creates a custom ERC20 DataCoin, designed for both creator incentive and user accessibility.
+Each dataset on MYRAD generates a unique **ERC-20 DataCoin**.  
+These tokens represent the market value of that dataset and power creator incentives, liquidity, and access.
 
 ---
 
-## Initial Allocation
+## Supply and Allocation
 
-| Allocation | Percentage | Notes |
+When a dataset is tokenized, a fixed supply of DataCoins is created and distributed according to the following model:
+
+| Allocation | Percentage | Purpose |
 | --- | --- | --- |
-| Liquidity Pool | 85% | Protocol-funded; establishes immediate market depth. |
-| Creator Allocation | 10% | Incentivizes long-term holding and value growth. |
-| MYRAD Treasury | 5% | Provides operational reserves for sustainability. |
+| **Liquidity Pool** | 85% | Provides immediate on-chain liquidity for trading and access. |
+| **Creator Allocation** | 10% | Rewards dataset creators and aligns long-term incentives. |
+| **MYRAD Treasury** | 5% | Covers operational costs, audits, and initial liquidity seeding. |
 
-A small USDC seed (~10 USDC) from the Treasury ensures initial liquidity, serving as a customer acquisition investment.
+A small **USDC seed (around 10 USDC)** from the Treasury is injected into the initial pool to bootstrap trading and enable early market price discovery.  
+This acts as a customer acquisition investment and ensures liquidity from day one.
 
 ---
 
 ## Deflationary Mechanism
 
-Every dataset access triggers a **buy-and-burn** event:
+Every dataset access or download triggers an automated **buy-and-burn** process that makes each DataCoin deflationary:
 
-- 50% of the DataCoin is permanently burned.  
-- 50% is returned to the liquidity pool to stabilize prices.
+- **50%** of the DataCoin used for access is **permanently burned**, reducing total supply.  
+- **50%** is **returned to the liquidity pool**, helping stabilize price and sustain market depth.  
 
-This process steadily reduces total supply, rewarding holders as demand grows.
+As usage increases, circulating supply decreases, creating natural scarcity and rewarding early holders.
+
+---
+
+## The Economic Loop
+
+1. **Creators upload data** and mint a dataset-specific DataCoin.  
+2. **Users buy access** using those tokens, creating on-chain demand.  
+3. **Each access burns supply**, increasing scarcity and price pressure.  
+4. **Liquidity pools rebalance**, maintaining market efficiency.  
+
+This creates a self-reinforcing economic cycle where dataset utility directly drives token value.
 
 ---
 
 ## Alignment Principles
 
-- **Creators earn more as dataset utility increases.**  
-- **The protocol benefits from sustainable, organic trading activity.**  
-- **Users gain transparent and fair pricing through open markets.**  
+- **Creators earn more as dataset utility grows.**  
+- **Users benefit from transparent pricing and open access.**  
+- **The protocol gains sustainable liquidity and long-term stability.**
+
+Each dataset becomes its own micro-economy, powered by transparent token mechanics and shared incentives.

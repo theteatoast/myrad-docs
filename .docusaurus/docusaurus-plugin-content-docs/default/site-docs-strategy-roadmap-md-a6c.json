@@ -2,7 +2,7 @@
   "unversionedId": "strategy-roadmap",
   "id": "strategy-roadmap",
   "title": "Strategy and Roadmap",
-  "description": "MYRAD’s growth phases and milestones.",
+  "description": "MYRAD’s phased plan for growth, ecosystem development, and market expansion.",
   "source": "@site/docs/strategy-roadmap.md",
   "sourceDirName": ".",
   "slug": "/strategy-roadmap",
@@ -14,7 +14,7 @@
   "frontMatter": {
     "id": "strategy-roadmap",
     "title": "Strategy and Roadmap",
-    "description": "MYRAD’s growth phases and milestones.",
+    "description": "MYRAD’s phased plan for growth, ecosystem development, and market expansion.",
     "sidebar_position": 6
   },
   "sidebar": "docs",
