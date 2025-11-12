@@ -1,56 +1,57 @@
-# System Architecture
+---
+id: architecture
+title: Architecture
+description: Technical and economic architecture of MYRAD’s Deflationary DataCoin model.
+sidebar_position: 4
+---
 
-MYRAD follows a **modular, decentralized architecture** combining blockchain logic, backend orchestration, and an interactive frontend.
+# Architecture Overview
+
+MYRAD operates through a hybrid on-chain and off-chain system that enables decentralized data monetization, liquidity, and access control.
 
 ---
 
-##  Layers Overview
+## On-Chain Components
 
-### 1. Blockchain Layer (Base Sepolia)
-- Smart contracts deployed using **Hardhat**
-- **DataCoin (ERC20)**: Represents a dataset  
-- **DataTokenMarketplace**: AMM for trading DataCoins  
-- **DataCoinFactory**: Manages token creation and metadata
-
-### 2. Backend Layer (Node.js + Express)
-- Event listener for **burn transactions**
-- Generates **JWT tokens** for secure downloads  
-- Handles **metadata retrieval** from IPFS  
-- Integrates with **ethers.js v6** for blockchain calls
-
-### 3. Frontend Layer (React + TypeScript)
-- Built with **Vite** and **TailwindCSS**
-- UI components via **Radix UI**  
-- Web3 wallet integration (MetaMask)  
-- Displays real-time token prices and pool data  
+| Component | Description |
+| --- | --- |
+| **DataCoin (ERC20)** | Each dataset mints its own token with fixed supply. |
+| **Automated Market Maker (AMM)** | Establishes instant liquidity and price discovery. |
+| **Burn Contract** | Executes the buy-and-burn process during dataset access. |
+| **Treasury Contract** | Seeds new pools and collects protocol-level fees. |
 
 ---
 
-##  Data Flow
+## Off-Chain Components
 
-1. **Dataset Upload** → IPFS (via Lighthouse)  
-2. **Token Creation** → ERC20 via DataCoinFactory  
-3. **Liquidity Initialization** → Token + USDC pool created  
-4. **Trading** → Users swap tokens via AMM  
-5. **Access Control** → Token burn triggers JWT issuance  
-6. **Download** → User downloads dataset securely via IPFS link  
-
----
-
-##  Infrastructure Summary
-
-| Layer | Technology | Purpose |
-|-------|-------------|----------|
-| Blockchain | Base Sepolia + Solidity | Smart contracts & token logic |
-| Backend | Express.js + ethers.js | Transaction monitoring & JWT auth |
-| Frontend | React + Vite + Tailwind | UI and marketplace |
-| Storage | IPFS (Lighthouse) | Decentralized dataset storage |
-| Auth | JWT | Time-limited dataset access |
+| Service | Description |
+| --- | --- |
+| **Dataset Gateway** | Manages dataset storage, JWT authentication, and user access. |
+| **Reputation Engine** | Rates datasets through community validation and metadata scoring. |
+| **Enterprise API Layer** | Provides stable, verified access for enterprise customers. |
 
 ---
 
-##  Scalability Vision
-- Transition to **Base Mainnet**  
-- **Off-chain data indexing** for advanced search  
-- **Multi-currency AMMs** (ETH, MATIC, etc.)  
-- **Governance and DAO-based upgrades**
+## Integrated Token Utility
+
+The economic model is embedded into the architecture itself:
+
+1. **Minting:** Every dataset upload creates a DataCoin with 1,000,000 total supply.  
+2. **Liquidity Seeding:** 85% of the supply is paired with USDC (funded by MYRAD).  
+3. **Creator Allocation:** 10% of tokens are granted to the creator.  
+4. **Buy-and-Burn:** Accessing a dataset burns 50% of tokens spent and returns 50% to the liquidity pool.
+
+This architecture maintains long-term price stability and ensures value accrues to both creators and the protocol.
+
+---
+
+## Economic Alignment
+
+Revenue flows are built into the system:
+
+- **Mint Fee (5%)** — for initial liquidity and protocol operations.  
+- **Creator Sale Fee (5%)** — only triggered when the creator realizes profit.  
+- **Swap Fee (0.3%)** — distributed to liquidity providers.  
+- **Enterprise Access Subscriptions** — recurring income for verified data feeds.  
+
+This ensures protocol health scales naturally with network growth.
