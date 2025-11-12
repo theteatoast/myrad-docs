@@ -1,11 +1,24 @@
 // sidebars.js
-export default {
+module.exports = {
+  // 'docs' here is the id Docusaurus will use; if your config references a different id, rename this key to match
   docs: [
-    'introduction',
-    'problem-statement',
-    'vision',
-    'architecture',
-    'tokenomics',
-    'strategy-roadmap',
+    {
+      type: 'category',
+      label: 'Getting started',
+      items: [
+        'introduction',
+        'problem-statement',
+        'vision',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Technical',
+      items: [
+        'architecture',
+        'tokenomics',
+        'strategy-roadmap',
+      ],
+    },
   ],
 };
