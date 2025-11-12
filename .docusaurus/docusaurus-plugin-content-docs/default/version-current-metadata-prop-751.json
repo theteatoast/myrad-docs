@@ -78,7 +78,7 @@
     },
     "index": {
       "id": "index",
-      "title": "Welcome to MYRAD",
+      "title": "",
       "description": "Welcome to the MYRAD documentation. MYRAD enables you to monetize your datasets through blockchain technology.",
       "sidebar": "docs"
     },

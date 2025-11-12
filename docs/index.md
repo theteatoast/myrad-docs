@@ -1,6 +1,6 @@
 ---
 id: index
-title: Welcome to MYRAD
+title: ""
 sidebar_label: Home
 slug: /
 ---

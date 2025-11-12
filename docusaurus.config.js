@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
   organizationName: 'myrad',
   projectName: 'myrad-docs',
 
@@ -31,20 +31,12 @@ module.exports = {
       title: 'MYRAD',
       logo: {
         alt: 'MYRAD Logo',
-        src: 'img/logo.svg',
-        href: '/', // Changed back to '/' since we now have docs/index.md
+        src: 'img/logo.png',
+        href: '/',
       },
       items: [
-        {
-          to: '/', // Changed to home page
-          label: 'Docs',
-          position: 'left',
-        },
-        {
-          href: 'https://myradhq.xyz',
-          label: 'Website',
-          position: 'right',
-        },
+        { to: '/', label: 'Docs', position: 'left' },
+        { href: 'https://myradhq.xyz', label: 'Website', position: 'right' },
       ],
     },
 
@@ -54,8 +46,8 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            { label: 'Home', to: '/' }, // Added home link
-            { label: 'Introduction', to: '/introduction' }, // Changed label
+            { label: 'Home', to: '/' },
+            { label: 'Introduction', to: '/introduction' },
             { label: 'Architecture', to: '/architecture' },
             { label: 'Roadmap', to: '/strategy-roadmap' },
           ],
@@ -64,6 +56,8 @@ module.exports = {
           title: 'Community',
           items: [
             { label: 'Website', href: 'https://myradhq.xyz' },
+            { label: 'Telegram', href: 'https://t.me/+KOAn6WDf7AdmNTI1' },
+            { label: 'X (Twitter)', href: 'https://x.com/myrad_hq' },
           ],
         },
       ],

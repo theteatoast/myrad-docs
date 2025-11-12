@@ -1,0 +1,275 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/gensay/Desktop/myrad-docs/sidebars.js",
+          "contentPath": "/home/gensay/Desktop/myrad-docs/docs",
+          "contentPathLocalized": "/home/gensay/Desktop/myrad-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "architecture",
+              "id": "architecture",
+              "title": "Architecture",
+              "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+              "source": "@site/docs/architecture.md",
+              "sourceDirName": ".",
+              "slug": "/architecture",
+              "permalink": "/architecture",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "architecture",
+                "title": "Architecture",
+                "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+                "sidebar_position": 4
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Vision",
+                "permalink": "/vision"
+              },
+              "next": {
+                "title": "Tokenomics",
+                "permalink": "/tokenomics"
+              }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Welcome to MYRAD",
+              "description": "Welcome to the MYRAD documentation. MYRAD enables you to monetize your datasets through blockchain technology.",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "index",
+                "title": "Welcome to MYRAD",
+                "sidebar_label": "Home",
+                "slug": "/"
+              },
+              "sidebar": "docs",
+              "next": {
+                "title": "Introduction",
+                "permalink": "/introduction"
+              }
+            },
+            {
+              "unversionedId": "introduction",
+              "id": "introduction",
+              "title": "Introduction",
+              "description": "Overview of MYRAD and the Deflationary DataCoin (DDC) model.",
+              "source": "@site/docs/introduction.md",
+              "sourceDirName": ".",
+              "slug": "/introduction",
+              "permalink": "/introduction",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "introduction",
+                "title": "Introduction",
+                "description": "Overview of MYRAD and the Deflationary DataCoin (DDC) model.",
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Home",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Problem Statement",
+                "permalink": "/problem-statement"
+              }
+            },
+            {
+              "unversionedId": "problem-statement",
+              "id": "problem-statement",
+              "title": "Problem Statement",
+              "description": "The challenges with current data ownership, monetization, and access models.",
+              "source": "@site/docs/problem-statement.md",
+              "sourceDirName": ".",
+              "slug": "/problem-statement",
+              "permalink": "/problem-statement",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "problem-statement",
+                "title": "Problem Statement",
+                "description": "The challenges with current data ownership, monetization, and access models.",
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/introduction"
+              },
+              "next": {
+                "title": "Vision",
+                "permalink": "/vision"
+              }
+            },
+            {
+              "unversionedId": "strategy-roadmap",
+              "id": "strategy-roadmap",
+              "title": "Strategy and Roadmap",
+              "description": "MYRAD’s growth phases and milestones.",
+              "source": "@site/docs/strategy-roadmap.md",
+              "sourceDirName": ".",
+              "slug": "/strategy-roadmap",
+              "permalink": "/strategy-roadmap",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "id": "strategy-roadmap",
+                "title": "Strategy and Roadmap",
+                "description": "MYRAD’s growth phases and milestones.",
+                "sidebar_position": 6
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Tokenomics",
+                "permalink": "/tokenomics"
+              }
+            },
+            {
+              "unversionedId": "tokenomics",
+              "id": "tokenomics",
+              "title": "Tokenomics",
+              "description": "Token supply, allocation, and deflationary mechanics.",
+              "source": "@site/docs/tokenomics.md",
+              "sourceDirName": ".",
+              "slug": "/tokenomics",
+              "permalink": "/tokenomics",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "id": "tokenomics",
+                "title": "Tokenomics",
+                "description": "Token supply, allocation, and deflationary mechanics.",
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Architecture",
+                "permalink": "/architecture"
+              },
+              "next": {
+                "title": "Strategy and Roadmap",
+                "permalink": "/strategy-roadmap"
+              }
+            },
+            {
+              "unversionedId": "vision",
+              "id": "vision",
+              "title": "Vision",
+              "description": "The mission and long-term vision of MYRAD.",
+              "source": "@site/docs/vision.md",
+              "sourceDirName": ".",
+              "slug": "/vision",
+              "permalink": "/vision",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "vision",
+                "title": "Vision",
+                "description": "The mission and long-term vision of MYRAD.",
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Problem Statement",
+                "permalink": "/problem-statement"
+              },
+              "next": {
+                "title": "Architecture",
+                "permalink": "/architecture"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docs": [
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "category",
+                "label": "Getting started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "problem-statement"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "vision"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Technical",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "architecture"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tokenomics"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "strategy-roadmap"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

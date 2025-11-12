@@ -10,7 +10,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/logo.png",
   "organizationName": "myrad",
   "projectName": "myrad-docs",
   "presets": [
@@ -18,12 +18,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\anind\\Desktop\\myrad-docs\\sidebars.js",
+          "sidebarPath": "/home/gensay/Desktop/myrad-docs/sidebars.js",
           "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\Users\\anind\\Desktop\\myrad-docs\\src\\css\\custom.css"
+          "customCss": "/home/gensay/Desktop/myrad-docs/src/css/custom.css"
         }
       }
     ]
@@ -33,7 +33,7 @@ export default {
       "title": "MYRAD",
       "logo": {
         "alt": "MYRAD Logo",
-        "src": "img/logo.svg",
+        "src": "img/logo.png",
         "href": "/"
       },
       "items": [
@@ -80,6 +80,14 @@ export default {
             {
               "label": "Website",
               "href": "https://myradhq.xyz"
+            },
+            {
+              "label": "Telegram",
+              "href": "https://t.me/+KOAn6WDf7AdmNTI1"
+            },
+            {
+              "label": "X (Twitter)",
+              "href": "https://x.com/myrad_hq"
             }
           ]
         }
