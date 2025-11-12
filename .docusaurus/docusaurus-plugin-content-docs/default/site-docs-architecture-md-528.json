@@ -1,8 +1,8 @@
 {
   "unversionedId": "architecture",
   "id": "architecture",
-  "title": "System Architecture",
-  "description": "MYRAD follows a modular, decentralized architecture combining blockchain logic, backend orchestration, and an interactive frontend.",
+  "title": "Architecture",
+  "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
   "source": "@site/docs/architecture.md",
   "sourceDirName": ".",
   "slug": "/architecture",
@@ -10,14 +10,20 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "architecture",
+    "title": "Architecture",
+    "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
   "previous": {
-    "title": "Why MYRAD",
-    "permalink": "/why-this"
+    "title": "Vision",
+    "permalink": "/vision"
   },
   "next": {
-    "title": "Core Features",
-    "permalink": "/features"
+    "title": "Tokenomics",
+    "permalink": "/tokenomics"
   }
 }

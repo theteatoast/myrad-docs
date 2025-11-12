@@ -8,45 +8,50 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "README",
+          "mainDocId": "index",
           "docs": [
             {
               "id": "architecture",
               "path": "/architecture",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docs"
             },
             {
-              "id": "features",
-              "path": "/features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "problem",
-              "path": "/problem",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "README",
+              "id": "index",
               "path": "/",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docs"
+            },
+            {
+              "id": "introduction",
+              "path": "/introduction",
+              "sidebar": "docs"
+            },
+            {
+              "id": "problem-statement",
+              "path": "/problem-statement",
+              "sidebar": "docs"
+            },
+            {
+              "id": "strategy-roadmap",
+              "path": "/strategy-roadmap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tokenomics",
+              "path": "/tokenomics",
+              "sidebar": "docs"
             },
             {
               "id": "vision",
               "path": "/vision",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "why-this",
-              "path": "/why-this",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docs"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "docs": {
               "link": {
                 "path": "/",
-                "label": "README"
+                "label": "index"
               }
             }
           }

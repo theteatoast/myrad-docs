@@ -16,9 +16,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', // serve docs at site root
-          editUrl: 'https://github.com/myrad/myrad-docs/edit/main/', // optional, for edit links
+          routeBasePath: '/',
         },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -32,10 +32,11 @@ module.exports = {
       logo: {
         alt: 'MYRAD Logo',
         src: 'img/logo.svg',
+        href: '/', // Changed back to '/' since we now have docs/index.md
       },
       items: [
         {
-          to: 'introduction', // link to docs home page instead of /
+          to: '/', // Changed to home page
           label: 'Docs',
           position: 'left',
         },
@@ -53,10 +54,10 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            // link to your first doc file instead of /
-            { label: 'Overview', to: 'introduction' },
-            { label: 'Architecture', to: 'architecture' },
-            { label: 'Roadmap', to: 'strategy-roadmap' },
+            { label: 'Home', to: '/' }, // Added home link
+            { label: 'Introduction', to: '/introduction' }, // Changed label
+            { label: 'Architecture', to: '/architecture' },
+            { label: 'Roadmap', to: '/strategy-roadmap' },
           ],
         },
         {

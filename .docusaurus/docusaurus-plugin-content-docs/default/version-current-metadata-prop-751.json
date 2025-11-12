@@ -8,81 +8,109 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "tutorialSidebar": [
+    "docs": [
       {
         "type": "link",
-        "label": "MYRAD: Decentralized Data Marketplace",
+        "label": "Home",
         "href": "/",
-        "docId": "README"
+        "docId": "index"
       },
       {
-        "type": "link",
-        "label": "The Problem",
-        "href": "/problem",
-        "docId": "problem"
+        "type": "category",
+        "label": "Getting started",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/introduction",
+            "docId": "introduction"
+          },
+          {
+            "type": "link",
+            "label": "Problem Statement",
+            "href": "/problem-statement",
+            "docId": "problem-statement"
+          },
+          {
+            "type": "link",
+            "label": "Vision",
+            "href": "/vision",
+            "docId": "vision"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       },
       {
-        "type": "link",
-        "label": "Why MYRAD",
-        "href": "/why-this",
-        "docId": "why-this"
-      },
-      {
-        "type": "link",
-        "label": "System Architecture",
-        "href": "/architecture",
-        "docId": "architecture"
-      },
-      {
-        "type": "link",
-        "label": "Core Features",
-        "href": "/features",
-        "docId": "features"
-      },
-      {
-        "type": "link",
-        "label": "Vision & Roadmap",
-        "href": "/vision",
-        "docId": "vision"
+        "type": "category",
+        "label": "Technical",
+        "items": [
+          {
+            "type": "link",
+            "label": "Architecture",
+            "href": "/architecture",
+            "docId": "architecture"
+          },
+          {
+            "type": "link",
+            "label": "Tokenomics",
+            "href": "/tokenomics",
+            "docId": "tokenomics"
+          },
+          {
+            "type": "link",
+            "label": "Strategy and Roadmap",
+            "href": "/strategy-roadmap",
+            "docId": "strategy-roadmap"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
   "docs": {
     "architecture": {
       "id": "architecture",
-      "title": "System Architecture",
-      "description": "MYRAD follows a modular, decentralized architecture combining blockchain logic, backend orchestration, and an interactive frontend.",
-      "sidebar": "tutorialSidebar"
+      "title": "Architecture",
+      "description": "Technical and economic architecture of MYRAD’s Deflationary DataCoin model.",
+      "sidebar": "docs"
     },
-    "features": {
-      "id": "features",
-      "title": "Core Features",
-      "description": "📤 Dataset Tokenization",
-      "sidebar": "tutorialSidebar"
+    "index": {
+      "id": "index",
+      "title": "Welcome to MYRAD",
+      "description": "Welcome to the MYRAD documentation. MYRAD enables you to monetize your datasets through blockchain technology.",
+      "sidebar": "docs"
     },
-    "problem": {
-      "id": "problem",
-      "title": "The Problem",
-      "description": "In today's data economy, datasets are often locked behind centralized platforms or sold through opaque intermediaries.",
-      "sidebar": "tutorialSidebar"
+    "introduction": {
+      "id": "introduction",
+      "title": "Introduction",
+      "description": "Overview of MYRAD and the Deflationary DataCoin (DDC) model.",
+      "sidebar": "docs"
     },
-    "README": {
-      "id": "README",
-      "title": "MYRAD: Decentralized Data Marketplace",
-      "description": "MYRAD is a decentralized data marketplace for tokenizing, trading, and monetizing datasets.",
-      "sidebar": "tutorialSidebar"
+    "problem-statement": {
+      "id": "problem-statement",
+      "title": "Problem Statement",
+      "description": "The challenges with current data ownership, monetization, and access models.",
+      "sidebar": "docs"
+    },
+    "strategy-roadmap": {
+      "id": "strategy-roadmap",
+      "title": "Strategy and Roadmap",
+      "description": "MYRAD’s growth phases and milestones.",
+      "sidebar": "docs"
+    },
+    "tokenomics": {
+      "id": "tokenomics",
+      "title": "Tokenomics",
+      "description": "Token supply, allocation, and deflationary mechanics.",
+      "sidebar": "docs"
     },
     "vision": {
       "id": "vision",
-      "title": "Vision & Roadmap",
-      "description": "MYRAD aims to redefine data as a digital asset class — empowering creators, buyers, and researchers to interact freely without intermediaries.",
-      "sidebar": "tutorialSidebar"
-    },
-    "why-this": {
-      "id": "why-this",
-      "title": "Why MYRAD",
-      "description": "MYRAD transforms how data is owned, priced, and distributed.",
-      "sidebar": "tutorialSidebar"
+      "title": "Vision",
+      "description": "The mission and long-term vision of MYRAD.",
+      "sidebar": "docs"
     }
   }
 }

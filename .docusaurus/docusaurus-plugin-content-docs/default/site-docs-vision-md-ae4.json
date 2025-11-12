@@ -1,8 +1,8 @@
 {
   "unversionedId": "vision",
   "id": "vision",
-  "title": "Vision & Roadmap",
-  "description": "MYRAD aims to redefine data as a digital asset class — empowering creators, buyers, and researchers to interact freely without intermediaries.",
+  "title": "Vision",
+  "description": "The mission and long-term vision of MYRAD.",
   "source": "@site/docs/vision.md",
   "sourceDirName": ".",
   "slug": "/vision",
@@ -10,10 +10,20 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "vision",
+    "title": "Vision",
+    "description": "The mission and long-term vision of MYRAD.",
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
   "previous": {
-    "title": "Core Features",
-    "permalink": "/features"
+    "title": "Problem Statement",
+    "permalink": "/problem-statement"
+  },
+  "next": {
+    "title": "Architecture",
+    "permalink": "/architecture"
   }
 }

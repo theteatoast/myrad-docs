@@ -1,0 +1,29 @@
+{
+  "unversionedId": "tokenomics",
+  "id": "tokenomics",
+  "title": "Tokenomics",
+  "description": "Token supply, allocation, and deflationary mechanics.",
+  "source": "@site/docs/tokenomics.md",
+  "sourceDirName": ".",
+  "slug": "/tokenomics",
+  "permalink": "/tokenomics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "tokenomics",
+    "title": "Tokenomics",
+    "description": "Token supply, allocation, and deflationary mechanics.",
+    "sidebar_position": 5
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Architecture",
+    "permalink": "/architecture"
+  },
+  "next": {
+    "title": "Strategy and Roadmap",
+    "permalink": "/strategy-roadmap"
+  }
+}

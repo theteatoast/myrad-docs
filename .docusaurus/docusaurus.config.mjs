@@ -18,11 +18,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\Anindya Roy\\Desktop\\myrad-docs (1)\\sidebars.js",
+          "sidebarPath": "C:\\Users\\anind\\Desktop\\myrad-docs\\sidebars.js",
           "routeBasePath": "/"
         },
+        "blog": false,
         "theme": {
-          "customCss": "C:\\Users\\Anindya Roy\\Desktop\\myrad-docs (1)\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\anind\\Desktop\\myrad-docs\\src\\css\\custom.css"
         }
       }
     ]
@@ -32,9 +33,15 @@ export default {
       "title": "MYRAD",
       "logo": {
         "alt": "MYRAD Logo",
-        "src": "img/logo.svg"
+        "src": "img/logo.svg",
+        "href": "/"
       },
       "items": [
+        {
+          "to": "/",
+          "label": "Docs",
+          "position": "left"
+        },
         {
           "href": "https://myradhq.xyz",
           "label": "Website",
@@ -50,8 +57,20 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Overview",
+              "label": "Home",
               "to": "/"
+            },
+            {
+              "label": "Introduction",
+              "to": "/introduction"
+            },
+            {
+              "label": "Architecture",
+              "to": "/architecture"
+            },
+            {
+              "label": "Roadmap",
+              "to": "/strategy-roadmap"
             }
           ]
         },
@@ -65,7 +84,7 @@ export default {
           ]
         }
       ],
-      "copyright": "© 2025 MYrAD"
+      "copyright": "© 2025 MYRAD"
     },
     "colorMode": {
       "defaultMode": "light",

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "strategy-roadmap",
+  "id": "strategy-roadmap",
+  "title": "Strategy and Roadmap",
+  "description": "MYRAD’s growth phases and milestones.",
+  "source": "@site/docs/strategy-roadmap.md",
+  "sourceDirName": ".",
+  "slug": "/strategy-roadmap",
+  "permalink": "/strategy-roadmap",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "strategy-roadmap",
+    "title": "Strategy and Roadmap",
+    "description": "MYRAD’s growth phases and milestones.",
+    "sidebar_position": 6
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tokenomics",
+    "permalink": "/tokenomics"
+  }
+}
