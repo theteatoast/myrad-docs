@@ -21,5 +21,9 @@
   "previous": {
     "title": "Tokenomics",
     "permalink": "/tokenomics"
+  },
+  "next": {
+    "title": "Demo",
+    "permalink": "/demo"
   }
 }

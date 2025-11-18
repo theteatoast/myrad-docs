@@ -16,6 +16,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "demo",
+              "path": "/demo",
+              "sidebar": "docs"
+            },
+            {
               "id": "index",
               "path": "/",
               "sidebar": "docs"

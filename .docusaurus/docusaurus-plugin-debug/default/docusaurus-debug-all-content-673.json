@@ -13,9 +13,9 @@
           "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\anind\\Desktop\\myrad-docs\\sidebars.js",
-          "contentPath": "C:\\Users\\anind\\Desktop\\myrad-docs\\docs",
-          "contentPathLocalized": "C:\\Users\\anind\\Desktop\\myrad-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "/home/gensay/Desktop/myrad-docs/sidebars.js",
+          "contentPath": "/home/gensay/Desktop/myrad-docs/docs",
+          "contentPathLocalized": "/home/gensay/Desktop/myrad-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "architecture",
@@ -44,6 +44,28 @@
               "next": {
                 "title": "Tokenomics",
                 "permalink": "/tokenomics"
+              }
+            },
+            {
+              "unversionedId": "demo",
+              "id": "demo",
+              "title": "Demo",
+              "description": "Walk Through Demo",
+              "source": "@site/docs/demo.md",
+              "sourceDirName": ".",
+              "slug": "/demo",
+              "permalink": "/demo",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "demo",
+                "title": "Demo"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Strategy and Roadmap",
+                "permalink": "/strategy-roadmap"
               }
             },
             {
@@ -151,6 +173,10 @@
               "previous": {
                 "title": "Tokenomics",
                 "permalink": "/tokenomics"
+              },
+              "next": {
+                "title": "Demo",
+                "permalink": "/demo"
               }
             },
             {
@@ -254,6 +280,18 @@
                   {
                     "type": "doc",
                     "id": "strategy-roadmap"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Walk Through",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "demo"
                   }
                 ],
                 "collapsed": true,

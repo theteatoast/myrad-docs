@@ -1,7 +1,8 @@
 // sidebars.js
 module.exports = {
   docs: [
-    'index', // Add the homepage at the top
+    'index',
+
     {
       type: 'category',
       label: 'Getting started',
@@ -11,6 +12,7 @@ module.exports = {
         'vision',
       ],
     },
+
     {
       type: 'category',
       label: 'Technical',
@@ -19,6 +21,12 @@ module.exports = {
         'tokenomics',
         'strategy-roadmap',
       ],
+    },
+
+    {
+      type: 'category',
+      label: 'Walk Through',
+      items: ['demo'],  
     },
   ],
 };

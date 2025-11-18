@@ -66,6 +66,20 @@
         ],
         "collapsed": true,
         "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Walk Through",
+        "items": [
+          {
+            "type": "link",
+            "label": "Demo",
+            "href": "/demo",
+            "docId": "demo"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
@@ -74,6 +88,12 @@
       "id": "architecture",
       "title": "Architecture",
       "description": "Technical and economic architecture of MYRAD’s DataCoin model.",
+      "sidebar": "docs"
+    },
+    "demo": {
+      "id": "demo",
+      "title": "Demo",
+      "description": "Walk Through Demo",
       "sidebar": "docs"
     },
     "index": {
