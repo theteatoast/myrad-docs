@@ -25,7 +25,7 @@ module.exports = {
 
     {
       type: 'category',
-      label: 'Walk Through',
+      label: 'Walkthrough',
       items: ['demo'],  
     },
   ],

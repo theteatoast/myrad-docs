@@ -1,8 +1,51 @@
 {
-  "/-046": {
-    "__comp": "1be78505",
+  "/__docusaurus/debug-153": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "26bac921"
+      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+    }
+  },
+  "/__docusaurus/debug/config-a43": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+    }
+  },
+  "/__docusaurus/debug/content-238": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-041": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+    }
+  },
+  "/__docusaurus/debug/metadata-3e9": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+    }
+  },
+  "/__docusaurus/debug/registry-998": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+    }
+  },
+  "/__docusaurus/debug/routes-92f": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+    }
+  },
+  "/-9eb": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---26-b-6b6"
     },
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -11,8 +54,12 @@
     "content": "content---c-37-d02"
   },
   "/architecture-c53": {
-    "__comp": "17896441",
-    "content": "5281b7a2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---architecture-528-630"
+  },
+  "/demo-4b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---demo-74-b-334"
   },
   "/introduction-9bc": {
     "__comp": "__comp---theme-doc-item-178-a40",

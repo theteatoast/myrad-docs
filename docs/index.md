@@ -19,6 +19,7 @@ Explore our documentation to learn more about MYRAD:
 - [Tokenomics](./tokenomics) - Token economics and distribution
 - [Vision](./vision) - Understand our long-term vision
 - [Strategy & Roadmap](./strategy-roadmap) - Our development roadmap
+- [Walk Through](./demo) – A step by step guide to using the platform
 
 ## Quick Links
 
