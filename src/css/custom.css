@@ -1,176 +1,260 @@
-/* Clean, High-Contrast Dark Theme */
+/* Hiro Docs Inspired Theme (Warm Dark) */
 :root {
-  --ifm-color-primary: #3b82f6;
-  --ifm-color-primary-dark: #2563eb;
-  --ifm-color-primary-darker: #1d4ed8;
-  --ifm-color-primary-darkest: #1e40af;
-  --ifm-color-primary-light: #60a5fa;
-  --ifm-color-primary-lighter: #93c5fd;
-  --ifm-color-primary-lightest: #dbeafe;
+  /* Primary Brand Colors - MYRAD Blue (Preserved) */
+  --ifm-color-primary: #58a6ff;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #79c0ff;
+  --ifm-color-primary-lighter: #a5d6ff;
+  --ifm-color-primary-lightest: #c9d1d9;
 
-  --ifm-background-color: #0f172a;
-  /* Solid Slate 900 */
-  --ifm-background-surface-color: #1e293b;
-  /* Solid Slate 800 */
-  --ifm-navbar-background-color: #1e293b;
-  /* Solid Slate 800 */
+  /* Backgrounds - Hiro Warm Dark Palette */
+  --ifm-background-color: #141312;
+  /* Hiro Main Body */
+  --ifm-background-surface-color: #141312;
+  /* Hiro Sidebar matches body */
+  --ifm-navbar-background-color: #141312;
+  /* Hiro Navbar matches body */
 
-  --ifm-font-color-base: #f1f5f9;
-  /* bright text for readability */
-  --ifm-heading-color: #ffffff;
-  /* white headings */
+  /* Typography - Hiro Warm Off-White */
+  --ifm-font-color-base: #F6F5F3;
+  /* Primary Text */
+  --ifm-heading-color: #F6F5F3;
+  /* Headings */
+  --text-secondary: #B5ACA1;
+  /* Muted Text */
 
   --doc-sidebar-width: 280px;
+  --border-color: #383432;
+  /* Hiro Border */
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   background-color: var(--ifm-background-color);
   color: var(--ifm-font-color-base);
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Navbar - Solid & Distinct */
+/* Navbar - Minimal & Seamless */
 .navbar {
   background-color: var(--ifm-navbar-background-color);
-  border-bottom: 1px solid #334155;
+  border-bottom: 1px solid var(--border-color);
   box-shadow: none;
 }
 
 .navbar__brand {
-  font-weight: 700;
-  color: #fff;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
 }
 
 .navbar__item {
-  color: #cbd5e1;
+  color: var(--text-secondary);
+  font-weight: 500;
 }
 
 .navbar__item:hover,
 .navbar__item--active {
-  color: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary);
 }
 
-/* Sidebar - Solid & Distinct */
+/* Sidebar - Seamless with right border */
 .theme-doc-sidebar-container {
-  background-color: #0f172a !important;
-  /* Matches body for seamless look, or make slightly lighter */
-  border-right: 1px solid #334155 !important;
+  background-color: var(--ifm-background-surface-color) !important;
+  border-right: 1px solid var(--border-color) !important;
 }
 
 .menu__link {
-  color: #cbd5e1;
+  color: var(--text-secondary);
 }
 
 .menu__link:hover {
-  background-color: #1e293b;
-  color: #fff;
+  background-color: #1E1C1B;
+  /* Hiro Hover State */
+  color: var(--ifm-heading-color);
 }
 
 .menu__link--active {
-  background-color: #1e293b;
-  color: #3b82f6 !important;
-  border-right: 3px solid #3b82f6;
+  background-color: #1E1C1B;
+  color: var(--ifm-color-primary) !important;
+  border-right: 3px solid var(--ifm-color-primary);
 }
 
 /* Content Area */
 h1 {
   font-size: 2.5rem;
-  font-weight: 800;
-  color: #fff;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
   margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
 }
 
 h2 {
   font-size: 1.75rem;
-  color: #f8fafc;
-  border-bottom: 1px solid #334155;
+  color: var(--ifm-heading-color);
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.5rem;
   margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
-  color: #e2e8f0;
+  font-size: 1.25rem;
+  color: var(--ifm-heading-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 p,
 li {
-  line-height: 1.7;
-  color: #cbd5e1;
-  /* slightly softer white for body text to reduce eye strain */
+  line-height: 1.6;
+  color: var(--ifm-font-color-base);
 }
 
 strong {
-  font-weight: 700;
-  color: #fff;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
 }
 
-/* Tables - Clean & High Contrast */
+/* Tables - Hiro Style (Seamless/Minimal) */
 table {
   width: 100%;
   border-collapse: separate !important;
-  /* Required for border-radius */
   border-spacing: 0;
   margin: 2rem 0;
-  background-color: #1e293b;
-  border-radius: 8px;
+  background-color: transparent;
+  /* Seamless background */
+  border-radius: 6px;
   overflow: hidden;
-  border: 1px solid #334155;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
   table-layout: fixed;
   display: table;
-  /* Ensure it behaves like a table */
 }
 
 th {
-  background-color: #0f172a;
-  color: #fff;
+  background-color: #1E1C1B;
+  /* Slightly lighter header */
+  color: var(--ifm-heading-color);
   font-weight: 600;
-  padding: 1rem;
-  border-bottom: 2px solid #334155;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
   text-align: left;
 }
 
 td {
-  padding: 1rem;
-  border-bottom: 1px solid #334155;
-  color: #cbd5e1;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  /* Softer text in tables */
 }
 
 tr:last-child td {
   border-bottom: none;
 }
 
+tr:nth-child(2n) td {
+  background-color: rgba(255, 255, 255, 0.02);
+  /* Very subtle stripe */
+}
+
 /* Code Blocks */
 .theme-code-block {
-  background-color: #020617;
-  border: 1px solid #334155;
-  border-radius: 8px;
+  background-color: #1E1C1B;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
 }
 
 /* Images */
 img {
-  border-radius: 8px;
-  border: 1px solid #334155;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
   margin: 1.5rem 0;
   background-color: transparent;
-  /* Fix if transparent pngs look bad on dark */
 }
 
 /* Footer */
+/* Light Mode Overrides */
+html[data-theme='light'] {
+  --ifm-color-primary: #3b82f6;
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8fafc;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-font-color-base: #1e293b;
+  --ifm-heading-color: #0f172a;
+  --text-secondary: #64748b;
+  --border-color: #e2e8f0;
+}
+
+html[data-theme='light'] .navbar {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+html[data-theme='light'] .theme-doc-sidebar-container {
+  border-right: 1px solid #e2e8f0 !important;
+  background-color: #f8fafc !important;
+}
+
+html[data-theme='light'] table {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+}
+
+html[data-theme='light'] th {
+  background-color: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+  color: #0f172a;
+}
+
+html[data-theme='light'] td {
+  border-bottom: 1px solid #e2e8f0;
+  color: #334155;
+}
+
+html[data-theme='light'] .theme-code-block {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+html[data-theme='light'] footer.footer {
+  background-color: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Navbar Logo Fix - Remove border from logo image */
+.navbar__logo img {
+  border: none !important;
+  background: transparent !important;
+  margin: 0 !important;
+}
+
+/* Footer Alignment */
 footer.footer {
-  background-color: #020617;
-  border-top: 1px solid #334155;
-  padding: 3rem 0;
+  background-color: #141312;
+  border-top: 1px solid var(--border-color);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .footer__title {
-  color: #fff;
+  color: var(--ifm-heading-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .footer__link-item {
-  color: #94a3b8;
+  color: var(--text-secondary);
 }
 
 .footer__link-item:hover {
-  color: #fff;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
 }
