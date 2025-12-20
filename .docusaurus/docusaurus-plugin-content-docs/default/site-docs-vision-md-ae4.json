@@ -2,7 +2,7 @@
   "unversionedId": "vision",
   "id": "vision",
   "title": "Vision",
-  "description": "The mission and long-term vision of MYRAD.",
+  "description": "The mission and future of MYRAD.",
   "source": "@site/docs/vision.md",
   "sourceDirName": ".",
   "slug": "/vision",
@@ -10,20 +10,16 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 7,
   "frontMatter": {
     "id": "vision",
     "title": "Vision",
-    "description": "The mission and long-term vision of MYRAD.",
-    "sidebar_position": 3
+    "description": "The mission and future of MYRAD.",
+    "sidebar_position": 7
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Problem Statement",
-    "permalink": "/problem-statement"
-  },
-  "next": {
     "title": "Architecture",
-    "permalink": "/architecture"
+    "permalink": "/tech-stack"
   }
 }

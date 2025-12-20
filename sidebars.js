@@ -5,28 +5,24 @@ module.exports = {
 
     {
       type: 'category',
-      label: 'Getting started',
+      label: 'Overview',
       items: [
         'introduction',
         'problem-statement',
-        'vision',
+        'how-it-works',
       ],
     },
 
     {
       type: 'category',
-      label: 'Technical',
+      label: 'Technology',
       items: [
-        'architecture',
-        'tokenomics',
-        'strategy-roadmap',
+        'zero-knowledge',
+        'features',
+        'tech-stack',
       ],
     },
 
-    {
-      type: 'category',
-      label: 'Walkthrough',
-      items: ['demo'],  
-    },
+    'vision',
   ],
 };

@@ -13,66 +13,73 @@
           "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/gensay/Desktop/myrad-docs/sidebars.js",
-          "contentPath": "/home/gensay/Desktop/myrad-docs/docs",
-          "contentPathLocalized": "/home/gensay/Desktop/myrad-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\anind\\Desktop\\myrad-docs\\sidebars.js",
+          "contentPath": "C:\\Users\\anind\\Desktop\\myrad-docs\\docs",
+          "contentPathLocalized": "C:\\Users\\anind\\Desktop\\myrad-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "architecture",
-              "id": "architecture",
-              "title": "Architecture",
-              "description": "Technical and economic architecture of MYRAD’s DataCoin model.",
-              "source": "@site/docs/architecture.md",
+              "unversionedId": "features",
+              "id": "features",
+              "title": "Platform Features",
+              "description": "MYRAD capabilities, reward system, and supported integrations.",
+              "source": "@site/docs/features.md",
               "sourceDirName": ".",
-              "slug": "/architecture",
-              "permalink": "/architecture",
+              "slug": "/features",
+              "permalink": "/features",
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 5,
               "frontMatter": {
-                "id": "architecture",
-                "title": "Architecture",
-                "description": "Technical and economic architecture of MYRAD’s DataCoin model.",
-                "sidebar_position": 4
+                "id": "features",
+                "title": "Platform Features",
+                "description": "MYRAD capabilities, reward system, and supported integrations.",
+                "sidebar_position": 5
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Vision",
-                "permalink": "/vision"
+                "title": "Zero-Knowledge Technology",
+                "permalink": "/zero-knowledge"
               },
               "next": {
-                "title": "Tokenomics",
-                "permalink": "/tokenomics"
+                "title": "Architecture",
+                "permalink": "/tech-stack"
               }
             },
             {
-              "unversionedId": "demo",
-              "id": "demo",
-              "title": "Demo",
-              "description": "Walk Through Demo",
-              "source": "@site/docs/demo.md",
+              "unversionedId": "how-it-works",
+              "id": "how-it-works",
+              "title": "How It Works",
+              "description": "The MYRAD verification and rewards flow for users and businesses.",
+              "source": "@site/docs/how-it-works.md",
               "sourceDirName": ".",
-              "slug": "/demo",
-              "permalink": "/demo",
+              "slug": "/how-it-works",
+              "permalink": "/how-it-works",
               "draft": false,
               "tags": [],
               "version": "current",
+              "sidebarPosition": 3,
               "frontMatter": {
-                "id": "demo",
-                "title": "Demo"
+                "id": "how-it-works",
+                "title": "How It Works",
+                "description": "The MYRAD verification and rewards flow for users and businesses.",
+                "sidebar_position": 3
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Strategy and Roadmap",
-                "permalink": "/strategy-roadmap"
+                "title": "The Problem",
+                "permalink": "/problem-statement"
+              },
+              "next": {
+                "title": "Zero-Knowledge Technology",
+                "permalink": "/zero-knowledge"
               }
             },
             {
               "unversionedId": "index",
               "id": "index",
               "title": "",
-              "description": "Welcome to the MYRAD documentation. MYRAD enables you to monetize your data through blockchain technology.",
+              "description": "Welcome to MYRAD, the world's first zero-knowledge verified consumer insights platform.",
               "source": "@site/docs/index.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -96,7 +103,7 @@
               "unversionedId": "introduction",
               "id": "introduction",
               "title": "Introduction",
-              "description": "Overview of MYRAD and the DataCoin (DC) model.",
+              "description": "Discover MYRAD, the world's first zero-knowledge verified consumer insights platform.",
               "source": "@site/docs/introduction.md",
               "sourceDirName": ".",
               "slug": "/introduction",
@@ -108,7 +115,7 @@
               "frontMatter": {
                 "id": "introduction",
                 "title": "Introduction",
-                "description": "Overview of MYRAD and the DataCoin (DC) model.",
+                "description": "Discover MYRAD, the world's first zero-knowledge verified consumer insights platform.",
                 "sidebar_position": 1
               },
               "sidebar": "docs",
@@ -117,15 +124,15 @@
                 "permalink": "/"
               },
               "next": {
-                "title": "Problem Statement",
+                "title": "The Problem",
                 "permalink": "/problem-statement"
               }
             },
             {
               "unversionedId": "problem-statement",
               "id": "problem-statement",
-              "title": "Problem Statement",
-              "description": "The structural challenges with current data ownership, monetization, and liquidity models.",
+              "title": "The Problem",
+              "description": "Why the current data economy is broken and how MYRAD fixes it.",
               "source": "@site/docs/problem-statement.md",
               "sourceDirName": ".",
               "slug": "/problem-statement",
@@ -136,8 +143,8 @@
               "sidebarPosition": 2,
               "frontMatter": {
                 "id": "problem-statement",
-                "title": "Problem Statement",
-                "description": "The structural challenges with current data ownership, monetization, and liquidity models.",
+                "title": "The Problem",
+                "description": "Why the current data economy is broken and how MYRAD fixes it.",
                 "sidebar_position": 2
               },
               "sidebar": "docs",
@@ -146,73 +153,44 @@
                 "permalink": "/introduction"
               },
               "next": {
-                "title": "Vision",
-                "permalink": "/vision"
+                "title": "How It Works",
+                "permalink": "/how-it-works"
               }
             },
             {
-              "unversionedId": "strategy-roadmap",
-              "id": "strategy-roadmap",
-              "title": "Strategy and Roadmap",
-              "description": "MYRAD’s phased plan for growth, ecosystem development, and market expansion.",
-              "source": "@site/docs/strategy-roadmap.md",
+              "unversionedId": "tech-stack",
+              "id": "tech-stack",
+              "title": "Architecture",
+              "description": "Technical foundation powering MYRAD's verified insights platform.",
+              "source": "@site/docs/tech-stack.md",
               "sourceDirName": ".",
-              "slug": "/strategy-roadmap",
-              "permalink": "/strategy-roadmap",
+              "slug": "/tech-stack",
+              "permalink": "/tech-stack",
               "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
-                "id": "strategy-roadmap",
-                "title": "Strategy and Roadmap",
-                "description": "MYRAD’s phased plan for growth, ecosystem development, and market expansion.",
+                "id": "tech-stack",
+                "title": "Architecture",
+                "description": "Technical foundation powering MYRAD's verified insights platform.",
                 "sidebar_position": 6
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Tokenomics",
-                "permalink": "/tokenomics"
+                "title": "Platform Features",
+                "permalink": "/features"
               },
               "next": {
-                "title": "Demo",
-                "permalink": "/demo"
-              }
-            },
-            {
-              "unversionedId": "tokenomics",
-              "id": "tokenomics",
-              "title": "Tokenomics",
-              "description": "Token supply, allocation, and deflationary mechanics for DataCoins.",
-              "source": "@site/docs/tokenomics.md",
-              "sourceDirName": ".",
-              "slug": "/tokenomics",
-              "permalink": "/tokenomics",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "id": "tokenomics",
-                "title": "Tokenomics",
-                "description": "Token supply, allocation, and deflationary mechanics for DataCoins.",
-                "sidebar_position": 5
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Architecture",
-                "permalink": "/architecture"
-              },
-              "next": {
-                "title": "Strategy and Roadmap",
-                "permalink": "/strategy-roadmap"
+                "title": "Vision",
+                "permalink": "/vision"
               }
             },
             {
               "unversionedId": "vision",
               "id": "vision",
               "title": "Vision",
-              "description": "The mission and long-term vision of MYRAD.",
+              "description": "The mission and future of MYRAD.",
               "source": "@site/docs/vision.md",
               "sourceDirName": ".",
               "slug": "/vision",
@@ -220,21 +198,46 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 7,
               "frontMatter": {
                 "id": "vision",
                 "title": "Vision",
-                "description": "The mission and long-term vision of MYRAD.",
-                "sidebar_position": 3
+                "description": "The mission and future of MYRAD.",
+                "sidebar_position": 7
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Problem Statement",
-                "permalink": "/problem-statement"
+                "title": "Architecture",
+                "permalink": "/tech-stack"
+              }
+            },
+            {
+              "unversionedId": "zero-knowledge",
+              "id": "zero-knowledge",
+              "title": "Zero-Knowledge Technology",
+              "description": "The cryptographic foundation that powers MYRAD's verified insights.",
+              "source": "@site/docs/zero-knowledge.md",
+              "sourceDirName": ".",
+              "slug": "/zero-knowledge",
+              "permalink": "/zero-knowledge",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "zero-knowledge",
+                "title": "Zero-Knowledge Technology",
+                "description": "The cryptographic foundation that powers MYRAD's verified insights.",
+                "sidebar_position": 4
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "How It Works",
+                "permalink": "/how-it-works"
               },
               "next": {
-                "title": "Architecture",
-                "permalink": "/architecture"
+                "title": "Platform Features",
+                "permalink": "/features"
               }
             }
           ],
@@ -247,7 +250,7 @@
               },
               {
                 "type": "category",
-                "label": "Getting started",
+                "label": "Overview",
                 "items": [
                   {
                     "type": "doc",
@@ -259,7 +262,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "vision"
+                    "id": "how-it-works"
                   }
                 ],
                 "collapsed": true,
@@ -267,35 +270,27 @@
               },
               {
                 "type": "category",
-                "label": "Technical",
+                "label": "Technology",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "architecture"
+                    "id": "zero-knowledge"
                   },
                   {
                     "type": "doc",
-                    "id": "tokenomics"
+                    "id": "features"
                   },
                   {
                     "type": "doc",
-                    "id": "strategy-roadmap"
+                    "id": "tech-stack"
                   }
                 ],
                 "collapsed": true,
                 "collapsible": true
               },
               {
-                "type": "category",
-                "label": "Walkthrough",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "demo"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
+                "type": "doc",
+                "id": "vision"
               }
             ]
           }

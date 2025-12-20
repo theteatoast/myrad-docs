@@ -18,12 +18,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/home/gensay/Desktop/myrad-docs/sidebars.js",
+          "sidebarPath": "C:\\Users\\anind\\Desktop\\myrad-docs\\sidebars.js",
           "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
-          "customCss": "/home/gensay/Desktop/myrad-docs/src/css/custom.css"
+          "customCss": "C:\\Users\\anind\\Desktop\\myrad-docs\\src\\css\\custom.css"
         }
       }
     ]

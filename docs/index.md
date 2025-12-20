@@ -7,25 +7,25 @@ slug: /
 
 # MYRAD Documentation
 
-Welcome to the MYRAD documentation. MYRAD enables you to monetize your data through blockchain technology.
+Welcome to MYRAD, the **world's first zero-knowledge verified consumer insights platform**.
 
-## Getting Started
+We transform everyday app activity into verified, privacy-protected intelligence that businesses can trust and consumers can monetize.
 
-Explore our documentation to learn more about MYRAD:
+## Explore the Docs
 
-- [Introduction](./introduction) - Learn about MYRAD and its core concepts
-- [Problem Statement](./problem-statement) - The challenges we're solving
-- [Architecture](./architecture) - Technical architecture overview
-- [Tokenomics](./tokenomics) - Token economics and distribution
-- [Vision](./vision) - Understand our long-term vision
-- [Strategy & Roadmap](./strategy-roadmap) - Our development roadmap
-- [Walk Through](./demo) – A step by step guide to using the platform
+- [Introduction](./introduction) - Discover what makes MYRAD revolutionary
+- [The Problem](./problem-statement) - Why the data economy is broken
+- [How It Works](./how-it-works) - Our privacy-first verification flow
+- [Zero-Knowledge Technology](./zero-knowledge) - The cryptography powering our platform
+- [Platform Features](./features) - Capabilities, rewards, and integrations
+- [Architecture](./tech-stack) - Technical foundation
+- [Vision](./vision) - Where we are heading
 
-## Quick Links
+## Connect With Us
 
 - [Official Website](https://myradhq.xyz)
+- [GitHub Repository](https://github.com/Myrad-Labs/MYRAD)
 - [Telegram](https://t.me/+d0dhyHWulJU4NTc1)
-- [X(Twitter)](https://x.com/myrad_hq)
-
+- [X (Twitter)](https://x.com/myrad_hq)
 
 ---

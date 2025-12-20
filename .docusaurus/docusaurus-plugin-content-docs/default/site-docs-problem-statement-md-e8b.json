@@ -1,8 +1,8 @@
 {
   "unversionedId": "problem-statement",
   "id": "problem-statement",
-  "title": "Problem Statement",
-  "description": "The structural challenges with current data ownership, monetization, and liquidity models.",
+  "title": "The Problem",
+  "description": "Why the current data economy is broken and how MYRAD fixes it.",
   "source": "@site/docs/problem-statement.md",
   "sourceDirName": ".",
   "slug": "/problem-statement",
@@ -13,8 +13,8 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "id": "problem-statement",
-    "title": "Problem Statement",
-    "description": "The structural challenges with current data ownership, monetization, and liquidity models.",
+    "title": "The Problem",
+    "description": "Why the current data economy is broken and how MYRAD fixes it.",
     "sidebar_position": 2
   },
   "sidebar": "docs",
@@ -23,7 +23,7 @@
     "permalink": "/introduction"
   },
   "next": {
-    "title": "Vision",
-    "permalink": "/vision"
+    "title": "How It Works",
+    "permalink": "/how-it-works"
   }
 }

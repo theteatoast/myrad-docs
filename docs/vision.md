@@ -1,42 +1,52 @@
 ---
 id: vision
 title: Vision
-description: The mission and long-term vision of MYRAD.
-sidebar_position: 3
+description: The mission and future of MYRAD.
+sidebar_position: 7
 ---
 
 # Vision
 
-MYRAD’s mission is to make **data a liquid, creator-owned digital asset**.
+MYRAD exists to **return ownership of the data economy to the people who power it**.
 
-We believe the next major wave of tokenization will unlock the world’s most valuable resource: **human data**.
-Our goal is to turn static information into programmable, tradeable assets that reward the people who create them.
-
----
-
-## The MYRAD Model
-
-We envision a future where every dataset is:
-
-* **Tokenized:** represented by a verifiable, tradable asset that captures real market value.
-* **Accessible:** enabling frictionless exchange between creators, consumers, and AI systems.
-
-By combining decentralized token economics with transparent market infrastructure, MYRAD creates a new financial layer for data.
-In this model, **ownership, access, and value flow directly to the creator**, not to centralized intermediaries.
+We believe the greatest untapped resource in technology is not data itself, but the trust and consent of the individuals who create it. MYRAD unlocks both.
 
 ---
 
-## Long-Term Outlook
+## Our Mission
 
-* **Empower Creators:** Enable individuals, researchers, and organizations to monetize data without platforms or gatekeepers.
-* **Fuel AI Growth:** Provide open, verifiable datasets that accelerate machine learning and AI innovation.
-* **Build Sustainable Economics:** Design token mechanics that align incentives between creators, users, and liquidity providers for long-term ecosystem health.
-* **Establish a Global Data Economy:** Create a unified marketplace where every piece of information has transparent ownership, on-chain pricing, and real liquidity.
+Build the world's first platform where:
+
+- **Privacy is guaranteed** by mathematics, not corporate policy
+- **Rewards flow** to the individuals who generate value
+- **Verification replaces** blind trust in intermediaries
+
+We combine zero-knowledge cryptography with intuitive design to create a new relationship between people and their data. One where privacy and profit coexist.
 
 ---
 
-## Why It Matters
+## Long-Term Vision
 
-Data powers every major technology shift from social networks to artificial intelligence yet ownership remains centralized. MYRAD exists to change that.
+### Empower Individuals Globally
+Enable anyone, anywhere to monetize their digital footprint without sacrificing security or privacy.
 
-We are building the foundation for a **creator-owned data economy**, where the next trillion-dollar market belongs to the people who generate its value.
+### Expand Verified Intelligence
+Add more platforms, more data types, and more ways to earn while maintaining the same cryptographic guarantees.
+
+### Build the Enterprise Standard
+Become the default source for verified, consent-based consumer intelligence that outperforms surveillance-derived data.
+
+### Establish Data Sovereignty
+Create a world where individuals control their data destiny. They choose what to share, when to share it, and receive fair compensation for their contributions.
+
+---
+
+## Why This Matters
+
+Data powers every major technology wave from social networks to artificial intelligence. Yet ownership remains concentrated in the hands of corporations.
+
+MYRAD exists to change that permanently.
+
+We are building the foundation for a **privacy-first intelligence economy**, where individuals do not just create value. They own it, control it, and profit from it.
+
+The future of consumer insights belongs to the people who generate them.

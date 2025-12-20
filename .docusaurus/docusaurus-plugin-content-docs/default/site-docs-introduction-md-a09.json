@@ -2,7 +2,7 @@
   "unversionedId": "introduction",
   "id": "introduction",
   "title": "Introduction",
-  "description": "Overview of MYRAD and the DataCoin (DC) model.",
+  "description": "Discover MYRAD, the world's first zero-knowledge verified consumer insights platform.",
   "source": "@site/docs/introduction.md",
   "sourceDirName": ".",
   "slug": "/introduction",
@@ -14,7 +14,7 @@
   "frontMatter": {
     "id": "introduction",
     "title": "Introduction",
-    "description": "Overview of MYRAD and the DataCoin (DC) model.",
+    "description": "Discover MYRAD, the world's first zero-knowledge verified consumer insights platform.",
     "sidebar_position": 1
   },
   "sidebar": "docs",
@@ -23,7 +23,7 @@
     "permalink": "/"
   },
   "next": {
-    "title": "Problem Statement",
+    "title": "The Problem",
     "permalink": "/problem-statement"
   }
 }

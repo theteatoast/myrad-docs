@@ -11,13 +11,13 @@
           "mainDocId": "index",
           "docs": [
             {
-              "id": "architecture",
-              "path": "/architecture",
+              "id": "features",
+              "path": "/features",
               "sidebar": "docs"
             },
             {
-              "id": "demo",
-              "path": "/demo",
+              "id": "how-it-works",
+              "path": "/how-it-works",
               "sidebar": "docs"
             },
             {
@@ -36,18 +36,18 @@
               "sidebar": "docs"
             },
             {
-              "id": "strategy-roadmap",
-              "path": "/strategy-roadmap",
-              "sidebar": "docs"
-            },
-            {
-              "id": "tokenomics",
-              "path": "/tokenomics",
+              "id": "tech-stack",
+              "path": "/tech-stack",
               "sidebar": "docs"
             },
             {
               "id": "vision",
               "path": "/vision",
+              "sidebar": "docs"
+            },
+            {
+              "id": "zero-knowledge",
+              "path": "/zero-knowledge",
               "sidebar": "docs"
             }
           ],
