@@ -174,60 +174,6 @@ img {
 }
 
 /* Footer */
-/* Light Mode Overrides */
-html[data-theme='light'] {
-  --ifm-color-primary: #3b82f6;
-  --ifm-background-color: #ffffff;
-  --ifm-background-surface-color: #f8fafc;
-  --ifm-navbar-background-color: #ffffff;
-  --ifm-font-color-base: #1e293b;
-  --ifm-heading-color: #0f172a;
-  --text-secondary: #64748b;
-  --border-color: #e2e8f0;
-}
-
-html[data-theme='light'] .navbar {
-  border-bottom: 1px solid #e2e8f0;
-}
-
-html[data-theme='light'] .theme-doc-sidebar-container {
-  border-right: 1px solid #e2e8f0 !important;
-  background-color: #f8fafc !important;
-}
-
-html[data-theme='light'] table {
-  background-color: #ffffff;
-  border-color: #e2e8f0;
-}
-
-html[data-theme='light'] th {
-  background-color: #f1f5f9;
-  border-bottom: 1px solid #e2e8f0;
-  color: #0f172a;
-}
-
-html[data-theme='light'] td {
-  border-bottom: 1px solid #e2e8f0;
-  color: #334155;
-}
-
-html[data-theme='light'] .theme-code-block {
-  background-color: #f8fafc;
-  border: 1px solid #e2e8f0;
-}
-
-html[data-theme='light'] footer.footer {
-  background-color: #f8fafc;
-  border-top: 1px solid #e2e8f0;
-}
-
-/* Navbar Logo Fix - Remove border from logo image */
-.navbar__logo img {
-  border: none !important;
-  background: transparent !important;
-  margin: 0 !important;
-}
-
 /* Footer Alignment */
 footer.footer {
   background-color: #141312;
@@ -257,4 +203,95 @@ footer.footer {
 .footer__link-item:hover {
   color: var(--ifm-color-primary);
   text-decoration: none;
+}
+
+/* Navbar Logo Fix - Remove border from logo image */
+.navbar__logo img {
+  border: none !important;
+  background: transparent !important;
+  margin: 0 !important;
+}
+
+/* LIGHT MODE OVERRIDES - Must be at the end to override base styles */
+html[data-theme='light'] {
+  --ifm-color-primary: #3b82f6;
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8fafc;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-font-color-base: #1e293b;
+  --ifm-heading-color: #0f172a;
+  --text-secondary: #64748b;
+  --border-color: #e2e8f0;
+}
+
+html[data-theme='light'] .navbar {
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+html[data-theme='light'] .navbar__brand {
+  color: #0f172a;
+}
+
+html[data-theme='light'] .navbar__item {
+  color: #64748b;
+}
+
+html[data-theme='light'] .navbar__item:hover,
+html[data-theme='light'] .navbar__item--active {
+  color: #3b82f6;
+}
+
+html[data-theme='light'] .theme-doc-sidebar-container {
+  border-right: 1px solid #e2e8f0 !important;
+  background-color: #f8fafc !important;
+}
+
+html[data-theme='light'] .menu__link {
+  color: #64748b;
+  /* Slate 500 */
+}
+
+html[data-theme='light'] .menu__link:hover {
+  background-color: #e2e8f0;
+  /* Light Gray Hover */
+  color: #0f172a;
+}
+
+html[data-theme='light'] .menu__link--active {
+  background-color: #e2e8f0;
+  /* Light Gray Active */
+  color: #3b82f6 !important;
+  border-right: 3px solid #3b82f6;
+}
+
+html[data-theme='light'] table {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+}
+
+html[data-theme='light'] th {
+  background-color: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+  color: #0f172a;
+}
+
+html[data-theme='light'] td {
+  border-bottom: 1px solid #e2e8f0;
+  color: #334155;
+}
+
+html[data-theme='light'] tr:nth-child(2n) td {
+  background-color: #f8fafc;
+  /* Very light stripe */
+}
+
+html[data-theme='light'] .theme-code-block {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+html[data-theme='light'] footer.footer {
+  background-color: #f8fafc;
+  border-top: 1px solid #e2e8f0;
 }

@@ -39,7 +39,6 @@ module.exports = {
         src: 'img/logo.png',
         href: '/',
       },
-      style: 'dark',
       items: [
         { to: '/', label: 'Docs', position: 'left' },
         { href: 'https://myradhq.xyz', label: 'Website', position: 'right' },
@@ -47,7 +46,6 @@ module.exports = {
     },
 
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',

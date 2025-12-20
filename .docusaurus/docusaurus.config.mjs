@@ -41,7 +41,6 @@ export default {
         "src": "img/logo.png",
         "href": "/"
       },
-      "style": "dark",
       "items": [
         {
           "to": "/",
@@ -57,7 +56,6 @@ export default {
       "hideOnScroll": false
     },
     "footer": {
-      "style": "dark",
       "links": [
         {
           "title": "Docs",
@@ -94,7 +92,8 @@ export default {
           ]
         }
       ],
-      "copyright": "© 2025 MYRAD"
+      "copyright": "© 2025 MYRAD",
+      "style": "light"
     },
     "docs": {
       "versionPersistence": "localStorage",
