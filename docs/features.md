@@ -26,31 +26,24 @@ MYRAD combines privacy-first verification with a rewarding user experience and e
 
 Every verified contribution earns transparent, instant rewards.
 
-| Action | Reward |
-| --- | --- |
-| **Welcome Bonus** | 100 points |
-| **Zomato Contribution** | 25 points |
-| **GitHub Contribution** | 15 points |
-| **Netflix Contribution** | 20 points |
-
 ### Reward Features
 
 - **Real-Time Tracking**: See your earnings update instantly
-- **Points Redemption**: Convert points to tangible rewards
+- **Redemption**: Convert rewards verified contributions
 - **Contribution History**: Full transparency on all verified activities
-- **Clear Earning Logic**: Know exactly how every point is calculated
+- **Clear Earning Logic**: Know exactly how every contribution is valued
 
 ---
 
 ## Supported Platforms
 
-| Platform | Data Type | Reward | Status |
-| --- | --- | --- | --- |
-| **Zomato** | Order History | 25 pts | ✅ Live |
-| **GitHub** | Developer Profile | 15 pts | ✅ Live |
-| **Netflix** | Watch History & Ratings | 20 pts | ✅ Live |
-| **Swiggy** | Order History | 25 pts | 🔜 Coming Soon |
-| **More** | Expanding | TBD | 📍 Roadmap |
+| Platform | Data Type | Status |
+| --- | --- | --- |
+| **Zomato** | Order History | ✅ Live |
+| **GitHub** | Developer Profile | ✅ Live |
+| **Netflix** | Watch History & Ratings | ✅ Live |
+| **Swiggy** | Order History | 🔜 Coming Soon |
+| **More** | Expanding | 📍 Roadmap |
 
 ---
 

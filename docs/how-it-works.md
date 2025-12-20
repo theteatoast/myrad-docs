@@ -27,7 +27,7 @@ A Zero-Knowledge Proof acts as a cryptographic stamp of authenticity. It confirm
 
 ### Step 4: Earn Instantly
 
-Every verified contribution earns you points. Track your balance in real time and redeem rewards as they accumulate.
+Every verified contribution earns you rewards. Track your balance in real time and redeem as they accumulate.
 
 ---
 
