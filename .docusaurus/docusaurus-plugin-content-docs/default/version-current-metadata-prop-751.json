@@ -16,56 +16,40 @@
         "docId": "index"
       },
       {
-        "type": "category",
-        "label": "Overview",
-        "items": [
-          {
-            "type": "link",
-            "label": "Introduction",
-            "href": "/introduction",
-            "docId": "introduction"
-          },
-          {
-            "type": "link",
-            "label": "The Problem",
-            "href": "/problem-statement",
-            "docId": "problem-statement"
-          },
-          {
-            "type": "link",
-            "label": "How It Works",
-            "href": "/how-it-works",
-            "docId": "how-it-works"
-          }
-        ],
-        "collapsed": true,
-        "collapsible": true
+        "type": "link",
+        "label": "Introduction",
+        "href": "/introduction",
+        "docId": "introduction"
       },
       {
-        "type": "category",
-        "label": "Technology",
-        "items": [
-          {
-            "type": "link",
-            "label": "Zero-Knowledge Technology",
-            "href": "/zero-knowledge",
-            "docId": "zero-knowledge"
-          },
-          {
-            "type": "link",
-            "label": "Platform Features",
-            "href": "/features",
-            "docId": "features"
-          },
-          {
-            "type": "link",
-            "label": "Architecture",
-            "href": "/tech-stack",
-            "docId": "tech-stack"
-          }
-        ],
-        "collapsed": true,
-        "collapsible": true
+        "type": "link",
+        "label": "The Problem",
+        "href": "/problem-statement",
+        "docId": "problem-statement"
+      },
+      {
+        "type": "link",
+        "label": "How It Works",
+        "href": "/how-it-works",
+        "docId": "how-it-works"
+      },
+      {
+        "type": "link",
+        "label": "Zero-Knowledge Technology",
+        "href": "/zero-knowledge",
+        "docId": "zero-knowledge"
+      },
+      {
+        "type": "link",
+        "label": "Platform Features",
+        "href": "/features",
+        "docId": "features"
+      },
+      {
+        "type": "link",
+        "label": "Architecture",
+        "href": "/tech-stack",
+        "docId": "tech-stack"
       },
       {
         "type": "link",

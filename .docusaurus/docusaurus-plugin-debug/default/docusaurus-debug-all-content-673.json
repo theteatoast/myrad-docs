@@ -249,44 +249,28 @@
                 "id": "index"
               },
               {
-                "type": "category",
-                "label": "Overview",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "introduction"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "problem-statement"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "how-it-works"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
+                "type": "doc",
+                "id": "introduction"
               },
               {
-                "type": "category",
-                "label": "Technology",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "zero-knowledge"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tech-stack"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
+                "type": "doc",
+                "id": "problem-statement"
+              },
+              {
+                "type": "doc",
+                "id": "how-it-works"
+              },
+              {
+                "type": "doc",
+                "id": "zero-knowledge"
+              },
+              {
+                "type": "doc",
+                "id": "features"
+              },
+              {
+                "type": "doc",
+                "id": "tech-stack"
               },
               {
                 "type": "doc",

@@ -53,19 +53,8 @@ MYRAD delivers verified consumer intelligence for businesses that demand accurac
 
 ## The Privacy-First Flow
 
-```
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│   Sign Up   │───▶│ Connect Apps│───▶│  ZK Proof   │───▶│Earn Rewards │
-│  (Email/    │    │  (Zomato,   │    │ Generation  │    │  (Points &  │
-│   Social)   │    │  GitHub...) │    │ (On Device) │    │   Rewards)  │
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
-                          │                  │
-                          │                  │
-                          ▼                  ▼
-                   ┌──────────────────────────────┐
-                   │   Raw Data NEVER Leaves      │
-                   │         Your Device          │
-                   └──────────────────────────────┘
-```
+
+![MYRAD Workflow](/img/workflow.jpeg)
+
 
 The critical insight: verification happens locally. Only the cryptographic proof is transmitted. Your data stays yours.

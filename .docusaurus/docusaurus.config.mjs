@@ -29,6 +29,11 @@ export default {
     ]
   ],
   "themeConfig": {
+    "colorMode": {
+      "defaultMode": "dark",
+      "disableSwitch": true,
+      "respectPrefersColorScheme": false
+    },
     "navbar": {
       "title": "MYRAD",
       "logo": {
@@ -36,6 +41,7 @@ export default {
         "src": "img/logo.png",
         "href": "/"
       },
+      "style": "dark",
       "items": [
         {
           "to": "/",
@@ -66,7 +72,7 @@ export default {
             },
             {
               "label": "Architecture",
-              "to": "/architecture"
+              "to": "/tech-stack"
             }
           ]
         },
@@ -79,7 +85,7 @@ export default {
             },
             {
               "label": "Telegram",
-              "href": "https://t.me/+KOAn6WDf7AdmNTI1"
+              "href": "https://t.me/+d0dhyHWulJU4NTc1"
             },
             {
               "label": "X (Twitter)",
@@ -89,11 +95,6 @@ export default {
         }
       ],
       "copyright": "© 2025 MYRAD"
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",

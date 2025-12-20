@@ -48,19 +48,9 @@ MYRAD is built on a modern, production-grade stack optimized for security, scala
 
 ## Data Flow
 
-```
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│   User Device   │     │ Reclaim Protocol│     │  MYRAD Backend  │
-│                 │     │                 │     │                 │
-│  ┌───────────┐  │     │  ┌───────────┐  │     │  ┌───────────┐  │
-│  │ App Data  │──┼────▶│  │ ZK Proof  │──┼────▶│  │ Verify &  │  │
-│  │ (Private) │  │     │  │Generation │  │     │  │  Reward   │  │
-│  └───────────┘  │     │  └───────────┘  │     │  └───────────┘  │
-│                 │     │                 │     │                 │
-│  Raw data stays │     │  Only proof is  │     │  Proof verified │
-│  on device      │     │  transmitted    │     │  Points awarded │
-└─────────────────┘     └─────────────────┘     └─────────────────┘
-```
+
+![MYRAD Data Flow](/img/dataflow.jpg)
+
 
 ---
 

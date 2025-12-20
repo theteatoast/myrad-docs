@@ -27,6 +27,11 @@ module.exports = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'MYRAD',
       logo: {
@@ -34,6 +39,7 @@ module.exports = {
         src: 'img/logo.png',
         href: '/',
       },
+      style: 'dark',
       items: [
         { to: '/', label: 'Docs', position: 'left' },
         { href: 'https://myradhq.xyz', label: 'Website', position: 'right' },
@@ -47,15 +53,15 @@ module.exports = {
           title: 'Docs',
           items: [
             { label: 'Home', to: '/' },
-            { label: 'Problem Statement', to: '/problem-statement'},
-            { label: 'Architecture', to: '/architecture' },                    
+            { label: 'Problem Statement', to: '/problem-statement' },
+            { label: 'Architecture', to: '/tech-stack' },
           ],
         },
         {
           title: 'Community',
           items: [
             { label: 'Website', href: 'https://myradhq.xyz' },
-            { label: 'Telegram', href: 'https://t.me/+KOAn6WDf7AdmNTI1' },
+            { label: 'Telegram', href: 'https://t.me/+d0dhyHWulJU4NTc1' },
             { label: 'X (Twitter)', href: 'https://x.com/myrad_hq' },
           ],
         },
