@@ -116,6 +116,9 @@ table {
   overflow: hidden;
   border: 1px solid #334155;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  table-layout: fixed;
+  display: table;
+  /* Ensure it behaves like a table */
 }
 
 th {

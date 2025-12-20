@@ -19,7 +19,7 @@ Create your account using email or social login. No complex wallet setup, no tec
 
 ### Step 2: Connect Your Apps
 
-Link platforms like **Zomato**, **Swiggy**, **GitHub**, or **Netflix**. Our integration with the Reclaim Protocol verifies your activity without ever accessing your actual data.
+Link platforms like **Zomato**, **GitHub**, or **Netflix**. Our integration with the Reclaim Protocol verifies your activity without ever accessing your actual data.
 
 ### Step 3: Privacy-First Verification
 

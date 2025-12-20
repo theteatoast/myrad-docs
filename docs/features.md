@@ -42,7 +42,6 @@ Every verified contribution earns transparent, instant rewards.
 | **Zomato** | Order History | ✅ Live |
 | **GitHub** | Developer Profile | ✅ Live |
 | **Netflix** | Watch History & Ratings | ✅ Live |
-| **Swiggy** | Order History | 🔜 Coming Soon |
 | **More** | Expanding | 📍 Roadmap |
 
 ---
