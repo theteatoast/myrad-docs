@@ -7,54 +7,132 @@ sidebar_position: 3
 
 # How It Works
 
-MYRAD operates on a privacy-first verification architecture that serves both users and enterprises.
+MYRAD uses a privacy-first verification system built for both users and enterprises.
+
+Verification happens on the user’s device.  
+Only cryptographic proof results are shared.
 
 ---
 
 ## For Users
 
-### Step 1: Instant Onboarding
+### Your Privacy Guarantees
 
-Create your account using email or social login. No complex wallet setup, no technical barriers. We handle the infrastructure so you can focus on earning.
+:::info What We Promise
+- **We never store your raw data**  
+- **Your data becomes anonymous signals**  
+- **You earn without being tracked**  
+- **You can leave anytime**  
+:::
+
+---
+
+### Step 1: Quick Onboarding
+
+Sign up using email or social login.  
+No wallets, no technical setup.
+
+---
 
 ### Step 2: Connect Your Apps
 
-Link platforms like **Zomato**, **GitHub**, or **Netflix**. Our integration with the Reclaim Protocol verifies your activity without ever accessing your actual data.
+Connect apps like **Zomato**, **GitHub**, or **Netflix**.
+
+Verification is powered by Reclaim Protocol and runs locally on your device.  
+Your raw data is never accessed or stored.
+
+---
 
 ### Step 3: Privacy-First Verification
 
-A Zero-Knowledge Proof acts as a cryptographic stamp of authenticity. It confirms your activity is real while keeping all personal details, transaction histories, and addresses completely private on your device.
+A **zero-knowledge proof** confirms your activity is real without revealing:
+- Personal details  
+- Activity history  
+- Account data  
 
-### Step 4: Earn Instantly
+Only anonymous proof results are generated.
 
-Every verified contribution earns you rewards. Track your balance in real time and redeem as they accumulate.
+---
+
+### Step 4: Earn Rewards
+
+Each successful verification earns you points.  
+No profiles. No tracking. No surveillance.
+
+Rewards update in real time and can be redeemed anytime.
+
+---
+
+## How to Contribute
+
+### Watch the Tutorial
+
+<div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
+  <video
+    controls
+    autoPlay
+    muted
+    playsInline
+    preload="metadata"
+    style={{ width: '100%', maxWidth: '720px', borderRadius: '12px' }}
+  >
+    <source src="/tutorial.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+---
+
+### Contribution Steps
+
+- Install the **Reclaim verified app** (Play Store / App Store)  
+- Connect supported accounts anonymously  
+- Complete verification securely  
+- Submit verified proofs  
+- Earn points for each valid contribution  
+- Climb the leaderboard  
 
 ---
 
 ## For Enterprises
 
-MYRAD delivers verified consumer intelligence for businesses that demand accuracy and compliance.
+MYRAD provides verified human intelligence without exposing user data.
+
+### Enterprise Guarantees
+
+:::tip Enterprise Assurance
+- **No PII**  
+- **No user profiles**  
+- **Aggregated only**  
+- **Auditable pipeline**  
+:::
+
+---
+
+### What Enterprises Get
 
 | Capability | Description |
 | --- | --- |
-| **API Access** | Privacy-compliant aggregated consumer insights via RESTful endpoints |
-| **Cryptographic Verification** | Every data point is backed by zero-knowledge proofs |
-| **Consent-Native** | 100% opt-in data from users who choose to participate |
-| **Compliance-Ready** | Built for GDPR, CCPA, and emerging privacy regulations |
+| **API Access** | Aggregated, privacy-safe insights via APIs |
+| **Proof-Backed Data** | Every signal is cryptographically verified |
+| **Consent-First** | All data is opt-in by design |
+| **Compliance-Ready** | Built for GDPR, CCPA, and future regulations |
 
-### What Businesses Receive
+---
 
-- **Verified Behavioral Patterns**: Authentic consumer activity data, not scraped or estimated
-- **Aggregated Intelligence**: Trends and segments without individual tracking
-- **Ethical Data Sourcing**: Build customer trust by using consent-first intelligence
-- **Regulatory Peace of Mind**: Compliance is built into our architecture
+### Delivered Value
+
+- Verified human behavior in **aggregated form only**  
+- No tracking or individual-level access  
+- Ethical, consent-driven data sourcing  
+- Full transparency through an auditable pipeline  
 
 ---
 
 ## The Privacy-First Flow
 
-
 ![MYRAD Workflow](/img/workflow.jpeg)
 
-
-The critical insight: verification happens locally. Only the cryptographic proof is transmitted. Your data stays yours.
+Verification happens on the user’s device.  
+Only proof results are shared.  
+Raw data never leaves the user.

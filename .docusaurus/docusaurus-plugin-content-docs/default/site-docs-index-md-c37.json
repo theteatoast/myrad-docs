@@ -2,7 +2,7 @@
   "unversionedId": "index",
   "id": "index",
   "title": "",
-  "description": "Welcome to MYRAD, the world's first zero-knowledge verified consumer insights platform.",
+  "description": "Welcome to MYRAD, the world's first zero knowledge verified consumer insights platform.",
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",

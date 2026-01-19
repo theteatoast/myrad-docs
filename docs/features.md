@@ -7,7 +7,7 @@ sidebar_position: 5
 
 # Platform Features
 
-MYRAD combines privacy-first verification with a rewarding user experience and enterprise-grade intelligence delivery.
+MYRAD combines privacy first verification with a rewarding user experience and enterprise grade intelligence delivery.
 
 ---
 

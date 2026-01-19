@@ -35,7 +35,7 @@
       },
       {
         "type": "link",
-        "label": "Zero-Knowledge Technology",
+        "label": "Zero Knowledge Technology",
         "href": "/zero-knowledge",
         "docId": "zero-knowledge"
       },
@@ -75,7 +75,7 @@
     "index": {
       "id": "index",
       "title": "",
-      "description": "Welcome to MYRAD, the world's first zero-knowledge verified consumer insights platform.",
+      "description": "Welcome to MYRAD, the world's first zero knowledge verified consumer insights platform.",
       "sidebar": "docs"
     },
     "introduction": {
@@ -104,7 +104,7 @@
     },
     "zero-knowledge": {
       "id": "zero-knowledge",
-      "title": "Zero-Knowledge Technology",
+      "title": "Zero Knowledge Technology",
       "description": "The cryptographic foundation that powers MYRAD's verified insights.",
       "sidebar": "docs"
     }

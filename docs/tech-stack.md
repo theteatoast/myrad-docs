@@ -15,10 +15,10 @@ MYRAD is built on a modern, production-grade stack optimized for security, scala
 
 | Layer | Technology | Rationale |
 | --- | --- | --- |
-| **Frontend** | React 18 + TypeScript | Type-safe, performant, production-ready |
+| **Frontend** | React 18 + TypeScript | Type safe, performant, production ready |
 | **Styling** | Vanilla CSS + Tailwind | Maximum design flexibility |
 | **Authentication** | Privy Auth | Seamless email, social, and wallet support |
-| **Verification** | Reclaim Protocol | Industry-leading zero-knowledge proofs |
+| **Verification** | Reclaim Protocol | Industry leading zero knowledge proofs |
 | **Backend** | Express.js | Lightweight, scalable API layer |
 | **Database** | PostgreSQL | Reliable, queryable analytics storage |
 
@@ -34,7 +34,7 @@ MYRAD is built on a modern, production-grade stack optimized for security, scala
 
 ### Verification Layer
 
-- **Reclaim Protocol**: Zero-knowledge verification of app activity
+- **Reclaim Protocol**: Zero knowledge verification of app activity
 - **TLS-Based Proofs**: Cryptographic attestation from source APIs
 - **On-Device Processing**: User data never leaves the device
 
@@ -59,7 +59,7 @@ MYRAD is built on a modern, production-grade stack optimized for security, scala
 | Layer | Implementation |
 | --- | --- |
 | **Transport** | TLS 1.3 for all connections |
-| **Authentication** | Privy-managed sessions with JWT tokens |
+| **Authentication** | Privy managed sessions with JWT tokens |
 | **Data Storage** | Encrypted PostgreSQL connections |
 | **API Security** | Rate limiting, input validation, CORS policies |
 | **Proof Verification** | Reclaim Protocol attestation validation |

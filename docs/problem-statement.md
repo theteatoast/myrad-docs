@@ -54,7 +54,7 @@ We introduce a new paradigm built on three principles:
 
 | Principle | What It Means |
 | --- | --- |
-| **Verified Without Exposed** | Zero-knowledge proofs confirm data authenticity without revealing content |
+| **Verified Without Exposed** | Zero knowledge proofs confirm data authenticity without revealing content |
 | **Rewarded by Default** | Every verified contribution earns transparent, instant rewards |
 | **Privacy as Foundation** | Cryptographic guarantees replace corporate promises |
 

@@ -13,9 +13,9 @@
           "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\anind\\Desktop\\myrad-docs\\sidebars.js",
-          "contentPath": "C:\\Users\\anind\\Desktop\\myrad-docs\\docs",
-          "contentPathLocalized": "C:\\Users\\anind\\Desktop\\myrad-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "/home/gensay/Desktop/myrad-docs/sidebars.js",
+          "contentPath": "/home/gensay/Desktop/myrad-docs/docs",
+          "contentPathLocalized": "/home/gensay/Desktop/myrad-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "features",
@@ -38,7 +38,7 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Zero-Knowledge Technology",
+                "title": "Zero Knowledge Technology",
                 "permalink": "/zero-knowledge"
               },
               "next": {
@@ -71,7 +71,7 @@
                 "permalink": "/problem-statement"
               },
               "next": {
-                "title": "Zero-Knowledge Technology",
+                "title": "Zero Knowledge Technology",
                 "permalink": "/zero-knowledge"
               }
             },
@@ -79,7 +79,7 @@
               "unversionedId": "index",
               "id": "index",
               "title": "",
-              "description": "Welcome to MYRAD, the world's first zero-knowledge verified consumer insights platform.",
+              "description": "Welcome to MYRAD, the world's first zero knowledge verified consumer insights platform.",
               "source": "@site/docs/index.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -214,7 +214,7 @@
             {
               "unversionedId": "zero-knowledge",
               "id": "zero-knowledge",
-              "title": "Zero-Knowledge Technology",
+              "title": "Zero Knowledge Technology",
               "description": "The cryptographic foundation that powers MYRAD's verified insights.",
               "source": "@site/docs/zero-knowledge.md",
               "sourceDirName": ".",
@@ -226,7 +226,7 @@
               "sidebarPosition": 4,
               "frontMatter": {
                 "id": "zero-knowledge",
-                "title": "Zero-Knowledge Technology",
+                "title": "Zero Knowledge Technology",
                 "description": "The cryptographic foundation that powers MYRAD's verified insights.",
                 "sidebar_position": 4
               },

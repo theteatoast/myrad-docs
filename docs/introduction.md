@@ -7,7 +7,7 @@ sidebar_position: 1
 
 # Introduction
 
-**MYRAD** is the world's first zero-knowledge verified consumer insights platform.
+**MYRAD** is the world's first zero knowledge verified consumer insights platform.
 
 We enable individuals to earn rewards from their digital footprint while delivering cryptographically verified behavioral intelligence to businesses. No raw data is ever collected. No personal information is ever exposed.
 
@@ -15,7 +15,7 @@ We enable individuals to earn rewards from their digital footprint while deliver
 
 Traditional data companies demand access to your private information. MYRAD flips this model entirely.
 
-Using advanced zero-knowledge cryptography, we verify that user data is authentic without ever seeing the data itself. The result: businesses get verified insights they can trust, and users get rewarded for contributions they control.
+Using advanced zero knowledge cryptography, we verify that user data is authentic without ever seeing the data itself. The result: businesses get verified insights they can trust, and users get rewarded for contributions they control.
 
 ## MYRAD vs The Old Model
 
@@ -28,10 +28,10 @@ Using advanced zero-knowledge cryptography, we verify that user data is authenti
 
 ## What Sets Us Apart
 
-- **First of its Kind**: The only platform delivering ZK-verified consumer intelligence at scale
+- **First of its Kind**: The only platform delivering ZK verified consumer intelligence at scale
 - **Privacy as Architecture**: Zero-knowledge proofs ensure verification without exposure
-- **User-Controlled Rewards**: Every contribution is opt-in, transparent, and compensated
-- **Enterprise-Grade Verification**: Businesses receive insights backed by cryptographic proof
+- **User Controlled Rewards**: Every contribution is opt in, transparent, and compensated
+- **Enterprise Grade Verification**: Businesses receive insights backed by cryptographic proof
 
 ## The Vision
 

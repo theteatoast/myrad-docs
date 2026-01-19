@@ -1,13 +1,13 @@
 ---
 id: zero-knowledge
-title: Zero-Knowledge Technology
+title: Zero Knowledge Technology
 description: The cryptographic foundation that powers MYRAD's verified insights.
 sidebar_position: 4
 ---
 
-# Zero-Knowledge Technology
+# Zero Knowledge Technology
 
-Zero-Knowledge Proofs are the cryptographic breakthrough that makes MYRAD possible. They are the reason we can verify without exposing, and prove without revealing.
+Zero Knowledge Proofs are the cryptographic breakthrough that makes MYRAD possible. They are the reason we can verify without exposing, and prove without revealing.
 
 ---
 
@@ -21,13 +21,16 @@ That is exactly what zero-knowledge proofs do for your data:
 - We confirm your GitHub contributions without accessing your repositories
 - We prove your Netflix activity without knowing what you watched
 
+![Zero Knowledge Proof Illustration](/img/zk.png)
+
+
 The verification is real. The privacy is absolute.
 
 ---
 
 ## The Technical Foundation
 
-Zero-knowledge proofs are cryptographic protocols that allow one party to prove knowledge of a value without revealing the value itself.
+Zero knowledge proofs are cryptographic protocols that allow one party to prove knowledge of a value without revealing the value itself.
 
 MYRAD leverages the **Reclaim Protocol's attestation network** to generate TLS-based proofs that verify data authenticity directly from source APIs.
 

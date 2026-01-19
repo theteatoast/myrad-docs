@@ -21,7 +21,7 @@ Build the world's first platform where:
 - **Rewards flow** to the individuals who generate value
 - **Verification replaces** blind trust in intermediaries
 
-We combine zero-knowledge cryptography with intuitive design to create a new relationship between people and their data. One where privacy and profit coexist.
+We combine zero knowledge cryptography with intuitive design to create a new relationship between people and their data. One where privacy and profit coexist.
 
 ---
 
@@ -34,7 +34,7 @@ Enable anyone, anywhere to monetize their digital footprint without sacrificing 
 Add more platforms, more data types, and more ways to earn while maintaining the same cryptographic guarantees.
 
 ### Build the Enterprise Standard
-Become the default source for verified, consent-based consumer intelligence that outperforms surveillance-derived data.
+Become the default source for verified, consent-based consumer intelligence that outperforms surveillance derived data.
 
 ### Establish Data Sovereignty
 Create a world where individuals control their data destiny. They choose what to share, when to share it, and receive fair compensation for their contributions.
@@ -47,6 +47,6 @@ Data powers every major technology wave from social networks to artificial intel
 
 MYRAD exists to change that permanently.
 
-We are building the foundation for a **privacy-first intelligence economy**, where individuals do not just create value. They own it, control it, and profit from it.
+We are building the foundation for a **privacy first intelligence economy**, where individuals do not just create value. They own it, control it, and profit from it.
 
 The future of consumer insights belongs to the people who generate them.
