@@ -1,13 +1,13 @@
 {
-  "unversionedId": "index",
   "id": "index",
   "title": "",
-  "description": "Welcome to MYRAD, the world's first zero knowledge verified consumer insights platform.",
+  "description": "Verified Human Data Without Collecting Personal Information",
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",
   "permalink": "/",
   "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {

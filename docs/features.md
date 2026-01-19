@@ -1,37 +1,60 @@
 ---
 id: features
 title: Platform Features
-description: MYRAD capabilities, reward system, and supported integrations.
+description: Human behavior signals, use cases, and supported integrations.
 sidebar_position: 5
 ---
 
 # Platform Features
 
-MYRAD combines privacy first verification with a rewarding user experience and enterprise grade intelligence delivery.
+Myrad transforms verified digital activity into decision-ready human behavior signals.
 
 ---
 
-## Privacy Architecture
+## What is a Human Behavior Signal
 
-| Feature | Implementation |
+A human behavior signal is a small, structured representation of how people typically behave under certain conditions.
+
+### Examples
+
+| Signal Type | What It Describes |
 | --- | --- |
-| **Zero Data Collection** | We never see, store, or process raw personal data |
-| **ZK Verification** | Cryptographic proofs confirm authenticity without exposure |
-| **User-Controlled Deletion** | Remove all your data instantly, at any time |
-| **End-to-End Encryption** | All transmissions secured with TLS 1.3 |
+| **Order Frequency** | How often users order food per month |
+| **Consumption Peaks** | When video consumption peaks during the day |
+| **Price Sensitivity** | How sensitive users are to pricing changes |
+| **Retention Patterns** | How many users return after an initial action |
+
+Signals are compact, interpretable, easy to integrate, and easy to explain to stakeholders.
 
 ---
 
-## Reward System
+## Use Cases
 
-Every verified contribution earns transparent, instant rewards.
+### For Product and Growth Teams
 
-### Reward Features
+Myrad signals help teams:
 
-- **Real-Time Tracking**: See your earnings update instantly
-- **Redemption**: Convert rewards verified contributions
-- **Contribution History**: Full transparency on all verified activities
-- **Clear Earning Logic**: Know exactly how every contribution is valued
+- Set realistic benchmarks
+- Validate assumptions
+- Plan feature roadmaps
+- Reduce experimentation risk
+
+### For AI and ML Teams
+
+Signals provide:
+
+- Human-grounded baselines
+- Safer training references
+- Evaluation benchmarks
+- Reduced reliance on synthetic or scraped data
+
+### For Research and Strategy Teams
+
+Myrad offers:
+
+- Defensible behavioral insights
+- Faster market understanding
+- Privacy-safe alternatives to surveys
 
 ---
 
@@ -46,9 +69,25 @@ Every verified contribution earns transparent, instant rewards.
 
 ---
 
-## Enterprise Intelligence API
+## Privacy and Compliance
 
-For businesses seeking verified, consent-based consumer insights.
+Myrad is built with privacy as the foundation, not an afterthought.
+
+| Guarantee | Implementation |
+| --- | --- |
+| **No raw data retention** | We never see, store, or process personal data |
+| **No personal identifiers** | Outputs contain no PII |
+| **Cohort aggregation** | All signals represent group behavior |
+| **Minimum k-anonymity** | Thresholds enforced at system level |
+| **GDPR and CCPA compatible** | Compliance by design |
+
+These constraints are enforced at the system level.
+
+---
+
+## Enterprise API
+
+For businesses seeking verified, consent-based behavior signals.
 
 | Capability | Description |
 | --- | --- |
@@ -56,18 +95,3 @@ For businesses seeking verified, consent-based consumer insights.
 | **Aggregated Analytics** | Behavioral patterns without individual tracking |
 | **Demographic Segments** | Queryable consumer cohorts |
 | **Compliance Documentation** | Full GDPR and CCPA compliance materials |
-
----
-
-## Security and Compliance
-
-MYRAD is built with privacy as the foundation, not an afterthought.
-
-| Protection | How We Deliver It |
-| --- | --- |
-| **Data Minimization** | Raw user data is never seen or stored |
-| **Zero-Knowledge Proofs** | Verification without exposure |
-| **Explicit Consent** | Opt-in required for every data share |
-| **Right to Delete** | Instant data removal on request |
-| **Transport Security** | TLS 1.3 for all data in transit |
-| **Regulatory Compliance** | GDPR and CCPA compatible by design |

@@ -1,61 +1,66 @@
 ---
 id: problem-statement
 title: The Problem
-description: Why the current data economy is broken and how MYRAD fixes it.
+description: Why current data systems fail and how Myrad provides a new path forward.
 sidebar_position: 2
 ---
 
-# The Problem We Solve
+# The Problem
 
-## The Data Economy is Broken
+## Data is Abundant, Trust is Not
 
-Every day, billions of people generate valuable behavioral data. They order food, watch shows, shop online, and build digital footprints worth trillions.
+Most modern datasets suffer from at least one of the following issues:
 
-Yet 100% of this value flows to corporations. Users get nothing. Worse, their personal information gets sold, leaked, and exploited.
+- Scraped from the open internet
+- Biased toward vocal or extreme users
+- Outdated or unverifiable
+- Collected without clear consent
+- Tied to personal identifiers
 
----
-
-## Three Fundamental Failures
-
-### 1. Value Extraction Without Compensation
-
-Every time you:
-- Order from Zomato or Swiggy
-- Stream content on Netflix
-- Contribute on GitHub
-- Browse and shop online
-
-You create data that powers advertising algorithms, trains AI models, and generates massive corporate profits.
-
-Your share? Zero.
-
-### 2. Privacy Sacrificed for Participation
-
-Current data monetization requires surrendering your raw personal information:
-- Order histories
-- Delivery addresses
-- Viewing habits
-- Spending patterns
-
-This data gets stored in vulnerable databases, shared with unknown parties, and sometimes exposed in breaches. You have no visibility and no control.
-
-### 3. No Mechanism for Fair Exchange
-
-Until now, there was no way to:
-- Monetize your own data on your terms
-- Prove data authenticity without exposing it
-- Participate in the data economy while preserving privacy
+As a result, teams often make decisions based on assumptions rather than evidence. This leads to poor product design, inefficient growth strategies, and unreliable AI systems.
 
 ---
 
-## MYRAD Rewrites the Rules
+## Raw Data Creates Risk
 
-We introduce a new paradigm built on three principles:
+Storing raw user data introduces significant challenges:
 
-| Principle | What It Means |
+| Challenge | Impact |
 | --- | --- |
-| **Verified Without Exposed** | Zero knowledge proofs confirm data authenticity without revealing content |
-| **Rewarded by Default** | Every verified contribution earns transparent, instant rewards |
-| **Privacy as Foundation** | Cryptographic guarantees replace corporate promises |
+| **Privacy and regulatory exposure** | Legal liability under GDPR, CCPA |
+| **Security liabilities** | Breach risk and data theft |
+| **High infrastructure costs** | Storage, processing, compliance overhead |
+| **Ethical concerns** | Surveillance-style data collection |
 
-MYRAD does not fix the old system. We replace it with something fundamentally better.
+Many organizations do not need raw data. They need answers.
+
+---
+
+## Users Are Excluded from Value Creation
+
+Individuals generate high-quality behavioral data through everyday digital activity:
+
+- Ordering food
+- Streaming content
+- Shopping online
+- Using apps
+
+Today, this value is captured almost entirely by platforms, while users receive little control or benefit.
+
+This imbalance is unsustainable.
+
+---
+
+## Myrad Rewrites the Rules
+
+Myrad introduces a new paradigm:
+
+| Shift | What Changes |
+| --- | --- |
+| **From data hoarding** | To signal sharing |
+| **From surveillance** | To consent |
+| **From raw logs** | To human meaning |
+
+We do not fix the old system. We replace it with something fundamentally better.
+
+Organizations get verified, privacy-safe signals. Users retain control and earn rewards. Trust becomes a first-class feature.

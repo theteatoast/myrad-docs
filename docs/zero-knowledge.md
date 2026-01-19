@@ -1,13 +1,13 @@
 ---
 id: zero-knowledge
 title: Zero Knowledge Technology
-description: The cryptographic foundation that powers MYRAD's verified insights.
+description: Cryptographic verification that powers Myrad's privacy-first approach.
 sidebar_position: 4
 ---
 
 # Zero Knowledge Technology
 
-Zero Knowledge Proofs are the cryptographic breakthrough that makes MYRAD possible. They are the reason we can verify without exposing, and prove without revealing.
+Cryptographic verification is the breakthrough that makes Myrad possible. It is the reason we can verify without exposing, and prove without revealing.
 
 ---
 
@@ -15,7 +15,7 @@ Zero Knowledge Proofs are the cryptographic breakthrough that makes MYRAD possib
 
 Imagine proving you are over 21 without showing your ID. You prove the fact without revealing the details.
 
-That is exactly what zero-knowledge proofs do for your data:
+That is exactly what cryptographic verification does for your data:
 
 - We verify you ordered from Zomato without seeing your orders
 - We confirm your GitHub contributions without accessing your repositories
@@ -23,16 +23,25 @@ That is exactly what zero-knowledge proofs do for your data:
 
 ![Zero Knowledge Proof Illustration](/img/zk.png)
 
-
 The verification is real. The privacy is absolute.
+
+---
+
+## Verification Without Exposure
+
+Myrad uses cryptographic verification mechanisms to confirm that activity is real without revealing personal information. This allows:
+
+| Benefit | What It Means |
+| --- | --- |
+| **Enterprises trust the data** | Proofs confirm authenticity |
+| **Users retain privacy** | Personal information never exposed |
+| **Myrad avoids sensitive data** | No identifiers handled |
 
 ---
 
 ## The Technical Foundation
 
-Zero knowledge proofs are cryptographic protocols that allow one party to prove knowledge of a value without revealing the value itself.
-
-MYRAD leverages the **Reclaim Protocol's attestation network** to generate TLS-based proofs that verify data authenticity directly from source APIs.
+Myrad leverages the **Reclaim Protocol's attestation network** to generate TLS-based proofs that verify data authenticity directly from source APIs.
 
 ### How Verification Works
 
@@ -40,9 +49,9 @@ MYRAD leverages the **Reclaim Protocol's attestation network** to generate TLS-b
 
 2. **Attestation**: The protocol cryptographically attests that specific data exists without extracting or storing the actual content
 
-3. **Proof Generation**: A zero-knowledge proof is generated locally on your device, confirming the validity of your activity
+3. **Proof Generation**: A cryptographic proof is generated locally on your device, confirming the validity of your activity
 
-4. **Verification**: MYRAD verifies the proof, not your data, to confirm your contribution is authentic
+4. **Verification**: Myrad verifies the proof, not your data, to confirm your contribution is authentic
 
 ---
 
@@ -50,7 +59,7 @@ MYRAD leverages the **Reclaim Protocol's attestation network** to generate TLS-b
 
 | Your Data | What Happens |
 | --- | --- |
-| **Order History** | Never seen by MYRAD |
+| **Order History** | Never seen by Myrad |
 | **Delivery Addresses** | Stays on your device |
 | **Spending Patterns** | Verified, not exposed |
 | **Watch History** | Remains completely private |
@@ -58,11 +67,22 @@ MYRAD leverages the **Reclaim Protocol's attestation network** to generate TLS-b
 
 ---
 
+## Cohort Aggregation
+
+All outputs are generated at a cohort level. Each signal represents the behavior of many users combined. This ensures:
+
+- **Strong privacy guarantees**: Individual behavior hidden in aggregate
+- **Reduced noise**: Statistical patterns emerge clearly
+- **Higher statistical stability**: More reliable signals
+- **Clear compliance boundaries**: Privacy by design
+
+---
+
 ## Why This Changes Everything
 
-Traditional platforms require you to **trust** them with your information. MYRAD requires **zero trust** because the cryptography guarantees your privacy.
+Traditional platforms require you to **trust** them with your information. Myrad requires **zero trust** because the cryptography guarantees your privacy.
 
-| Old Model | MYRAD Model |
+| Old Model | Myrad Model |
 | --- | --- |
 | Trust corporate promises | Trust mathematical proofs |
 | Data stored on servers | Data stays on your device |

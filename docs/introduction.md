@@ -1,40 +1,60 @@
 ---
 id: introduction
 title: Introduction
-description: Discover MYRAD, the world's first zero-knowledge verified consumer insights platform.
+description: Discover Myrad - verified human data without collecting personal information.
 sidebar_position: 1
 ---
 
 # Introduction
 
-**MYRAD** is the world's first zero knowledge verified consumer insights platform.
+**Myrad** transforms verified digital activity into privacy-safe behavior signals.
 
-We enable individuals to earn rewards from their digital footprint while delivering cryptographically verified behavioral intelligence to businesses. No raw data is ever collected. No personal information is ever exposed.
+AI systems, product teams, and modern companies increasingly depend on data to make decisions. Yet most available data is either untrustworthy, legally risky, or disconnected from real human behavior. At the same time, individuals generate valuable digital activity every day without participating in its economic upside.
 
-## The Breakthrough
+Myrad introduces a new model for human data. We transform verified digital activity into small, aggregated, privacy-safe behavior signals that organizations can rely on. Individuals contribute without exposing personal information, and organizations consume insights without handling raw data.
 
-Traditional data companies demand access to your private information. MYRAD flips this model entirely.
+---
 
-Using advanced zero knowledge cryptography, we verify that user data is authentic without ever seeing the data itself. The result: businesses get verified insights they can trust, and users get rewarded for contributions they control.
+## The Myrad Approach
 
-## MYRAD vs The Old Model
+Myrad is built on three principles:
 
-| Traditional Data Brokers | MYRAD |
+| Principle | What It Means |
 | --- | --- |
-| Collects and stores raw personal data | Never touches raw user data |
-| Sells your information to third parties | Delivers only aggregated, anonymous insights |
-| Users receive nothing | Users earn real rewards |
-| Constant privacy risks and data breaches | Cryptographically guaranteed privacy |
+| **Human behavior is valuable** | Everyday digital activity contains insights worth capturing |
+| **Privacy is non-negotiable** | Users never submit raw data directly |
+| **Signals beat raw data** | Aggregated patterns are more useful than individual records |
+
+---
+
+## From Activity to Signals
+
+Myrad does not store or sell raw user activity. Instead, verified digital activity is transformed into:
+
+- **Aggregated**: Combined across many users
+- **Cohort-based**: Grouped by behavior, not identity
+- **Time-bounded**: Relevant to specific windows
+- **Decision-ready**: Actionable for product and AI teams
+
+These signals describe what typically happens within a group, not what any individual does.
+
+---
+
+## Verification Without Exposure
+
+Myrad uses cryptographic verification mechanisms to confirm that activity is real without revealing personal information. This allows:
+
+- Enterprises to trust the data
+- Users to retain privacy
+- Myrad to avoid handling sensitive identifiers
+
+---
 
 ## What Sets Us Apart
 
-- **First of its Kind**: The only platform delivering ZK verified consumer intelligence at scale
-- **Privacy as Architecture**: Zero-knowledge proofs ensure verification without exposure
-- **User Controlled Rewards**: Every contribution is opt in, transparent, and compensated
-- **Enterprise Grade Verification**: Businesses receive insights backed by cryptographic proof
+- **No raw data retention**: We never see, store, or process personal data
+- **Cohort aggregation**: All outputs represent group behavior
+- **Consent-first design**: Participation is voluntary and reversible
+- **Compliance by default**: GDPR and CCPA compatible architecture
 
-## The Vision
-
-MYRAD represents a fundamental shift in the data economy. We are building a world where privacy and intelligence coexist, where verification replaces trust, and where individuals profit from the value they create.
-
-Welcome to the future of consumer insights.
+Myrad represents a shift from data hoarding to signal sharing, from surveillance to consent, from raw logs to human meaning.

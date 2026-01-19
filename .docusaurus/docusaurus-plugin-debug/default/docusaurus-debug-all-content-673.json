@@ -13,15 +13,15 @@
           "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/gensay/Desktop/myrad-docs/sidebars.js",
-          "contentPath": "/home/gensay/Desktop/myrad-docs/docs",
-          "contentPathLocalized": "/home/gensay/Desktop/myrad-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\Anindya Roy\\Desktop\\myrad-docs\\sidebars.js",
+          "contentPath": "C:\\Users\\Anindya Roy\\Desktop\\myrad-docs\\docs",
+          "contentPathLocalized": "C:\\Users\\Anindya Roy\\Desktop\\myrad-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "features",
               "id": "features",
               "title": "Platform Features",
-              "description": "MYRAD capabilities, reward system, and supported integrations.",
+              "description": "Human behavior signals, use cases, and supported integrations.",
               "source": "@site/docs/features.md",
               "sourceDirName": ".",
               "slug": "/features",
@@ -33,7 +33,7 @@
               "frontMatter": {
                 "id": "features",
                 "title": "Platform Features",
-                "description": "MYRAD capabilities, reward system, and supported integrations.",
+                "description": "Human behavior signals, use cases, and supported integrations.",
                 "sidebar_position": 5
               },
               "sidebar": "docs",
@@ -50,7 +50,7 @@
               "unversionedId": "how-it-works",
               "id": "how-it-works",
               "title": "How It Works",
-              "description": "The MYRAD verification and rewards flow for users and businesses.",
+              "description": "The Myrad verification and participation model for users and businesses.",
               "source": "@site/docs/how-it-works.md",
               "sourceDirName": ".",
               "slug": "/how-it-works",
@@ -62,7 +62,7 @@
               "frontMatter": {
                 "id": "how-it-works",
                 "title": "How It Works",
-                "description": "The MYRAD verification and rewards flow for users and businesses.",
+                "description": "The Myrad verification and participation model for users and businesses.",
                 "sidebar_position": 3
               },
               "sidebar": "docs",
@@ -79,7 +79,7 @@
               "unversionedId": "index",
               "id": "index",
               "title": "",
-              "description": "Welcome to MYRAD, the world's first zero knowledge verified consumer insights platform.",
+              "description": "Verified Human Data Without Collecting Personal Information",
               "source": "@site/docs/index.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -103,7 +103,7 @@
               "unversionedId": "introduction",
               "id": "introduction",
               "title": "Introduction",
-              "description": "Discover MYRAD, the world's first zero-knowledge verified consumer insights platform.",
+              "description": "Discover Myrad - verified human data without collecting personal information.",
               "source": "@site/docs/introduction.md",
               "sourceDirName": ".",
               "slug": "/introduction",
@@ -115,7 +115,7 @@
               "frontMatter": {
                 "id": "introduction",
                 "title": "Introduction",
-                "description": "Discover MYRAD, the world's first zero-knowledge verified consumer insights platform.",
+                "description": "Discover Myrad - verified human data without collecting personal information.",
                 "sidebar_position": 1
               },
               "sidebar": "docs",
@@ -132,7 +132,7 @@
               "unversionedId": "problem-statement",
               "id": "problem-statement",
               "title": "The Problem",
-              "description": "Why the current data economy is broken and how MYRAD fixes it.",
+              "description": "Why current data systems fail and how Myrad provides a new path forward.",
               "source": "@site/docs/problem-statement.md",
               "sourceDirName": ".",
               "slug": "/problem-statement",
@@ -144,7 +144,7 @@
               "frontMatter": {
                 "id": "problem-statement",
                 "title": "The Problem",
-                "description": "Why the current data economy is broken and how MYRAD fixes it.",
+                "description": "Why current data systems fail and how Myrad provides a new path forward.",
                 "sidebar_position": 2
               },
               "sidebar": "docs",
@@ -161,7 +161,7 @@
               "unversionedId": "tech-stack",
               "id": "tech-stack",
               "title": "Architecture",
-              "description": "Technical foundation powering MYRAD's verified insights platform.",
+              "description": "Technical foundation powering Myrad's verified behavior signals platform.",
               "source": "@site/docs/tech-stack.md",
               "sourceDirName": ".",
               "slug": "/tech-stack",
@@ -173,7 +173,7 @@
               "frontMatter": {
                 "id": "tech-stack",
                 "title": "Architecture",
-                "description": "Technical foundation powering MYRAD's verified insights platform.",
+                "description": "Technical foundation powering Myrad's verified behavior signals platform.",
                 "sidebar_position": 6
               },
               "sidebar": "docs",
@@ -190,7 +190,7 @@
               "unversionedId": "vision",
               "id": "vision",
               "title": "Vision",
-              "description": "The mission and future of MYRAD.",
+              "description": "Why this model matters and the future of Myrad.",
               "source": "@site/docs/vision.md",
               "sourceDirName": ".",
               "slug": "/vision",
@@ -202,7 +202,7 @@
               "frontMatter": {
                 "id": "vision",
                 "title": "Vision",
-                "description": "The mission and future of MYRAD.",
+                "description": "Why this model matters and the future of Myrad.",
                 "sidebar_position": 7
               },
               "sidebar": "docs",
@@ -215,7 +215,7 @@
               "unversionedId": "zero-knowledge",
               "id": "zero-knowledge",
               "title": "Zero Knowledge Technology",
-              "description": "The cryptographic foundation that powers MYRAD's verified insights.",
+              "description": "Cryptographic verification that powers Myrad's privacy-first approach.",
               "source": "@site/docs/zero-knowledge.md",
               "sourceDirName": ".",
               "slug": "/zero-knowledge",
@@ -227,7 +227,7 @@
               "frontMatter": {
                 "id": "zero-knowledge",
                 "title": "Zero Knowledge Technology",
-                "description": "The cryptographic foundation that powers MYRAD's verified insights.",
+                "description": "Cryptographic verification that powers Myrad's privacy-first approach.",
                 "sidebar_position": 4
               },
               "sidebar": "docs",

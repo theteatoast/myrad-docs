@@ -1,16 +1,34 @@
 ---
 id: how-it-works
 title: How It Works
-description: The MYRAD verification and rewards flow for users and businesses.
+description: The Myrad verification and participation model for users and businesses.
 sidebar_position: 3
 ---
 
 # How It Works
 
-MYRAD uses a privacy-first verification system built for both users and enterprises.
+Myrad uses a privacy-first verification system built for both users and enterprises.
 
-Verification happens on the user’s device.  
-Only cryptographic proof results are shared.
+Verification happens on the user's device.  
+Only cryptographic proof results are shared.  
+Raw data never leaves the user.
+
+---
+
+## User Participation Model
+
+Myrad is designed so individuals benefit without exposure.
+
+### What Users Do
+
+| Action | Description |
+| --- | --- |
+| **Contribute verified activity** | Connect apps and verify digital activity |
+| **Never submit raw data** | Data stays on device, only proofs are shared |
+| **Earn points and rewards** | Every verified contribution is compensated |
+| **Opt out at any time** | Participation is voluntary and reversible |
+
+Participation is voluntary, transparent, and reversible.
 
 ---
 
@@ -45,7 +63,7 @@ Your raw data is never accessed or stored.
 
 ### Step 3: Privacy-First Verification
 
-A **zero-knowledge proof** confirms your activity is real without revealing:
+A **cryptographic proof** confirms your activity is real without revealing:
 - Personal details  
 - Activity history  
 - Account data  
@@ -96,15 +114,15 @@ Rewards update in real time and can be redeemed anytime.
 
 ## For Enterprises
 
-MYRAD provides verified human intelligence without exposing user data.
+Myrad provides verified human behavior signals without exposing user data.
 
 ### Enterprise Guarantees
 
 :::tip Enterprise Assurance
-- **No PII**  
-- **No user profiles**  
-- **Aggregated only**  
-- **Auditable pipeline**  
+- **No PII**: Personal identifiers never included  
+- **No user profiles**: No individual-level access  
+- **Aggregated only**: Cohort-based outputs  
+- **Auditable pipeline**: Full transparency  
 :::
 
 ---
@@ -113,7 +131,7 @@ MYRAD provides verified human intelligence without exposing user data.
 
 | Capability | Description |
 | --- | --- |
-| **API Access** | Aggregated, privacy-safe insights via APIs |
+| **API Access** | Aggregated, privacy-safe signals via APIs |
 | **Proof-Backed Data** | Every signal is cryptographically verified |
 | **Consent-First** | All data is opt-in by design |
 | **Compliance-Ready** | Built for GDPR, CCPA, and future regulations |
@@ -131,8 +149,8 @@ MYRAD provides verified human intelligence without exposing user data.
 
 ## The Privacy-First Flow
 
-![MYRAD Workflow](/img/workflow.jpeg)
+![Myrad Workflow](/img/workflow.jpeg)
 
-Verification happens on the user’s device.  
+Verification happens on the user's device.  
 Only proof results are shared.  
 Raw data never leaves the user.

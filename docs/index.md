@@ -5,27 +5,26 @@ sidebar_label: Home
 slug: /
 ---
 
-# MYRAD Documentation
+# Myrad Documentation
 
-Welcome to MYRAD, the **world's first zero knowledge verified consumer insights platform**.
+**Verified Human Data Without Collecting Personal Information**
 
-We transform everyday app activity into verified, privacy protected intelligence that businesses can trust and consumers can monetize.
+Myrad transforms verified digital activity into small, aggregated, privacy-safe behavior signals that organizations can rely on. Individuals contribute without exposing personal information, and organizations consume insights without handling raw data.
 
 ## Explore the Docs
 
-- [Introduction](./introduction) - Discover what makes MYRAD revolutionary
-- [The Problem](./problem-statement) - Why the data economy is broken
-- [How It Works](./how-it-works) - Our privacy first verification flow
-- [Zero Knowledge Technology](./zero-knowledge) - The cryptography powering our platform
-- [Platform Features](./features) - Capabilities, rewards, and integrations
+- [Introduction](./introduction) - Discover what makes Myrad different
+- [The Problem](./problem-statement) - Why current data systems fail
+- [How It Works](./how-it-works) - Our privacy-first verification flow
+- [Zero Knowledge Technology](./zero-knowledge) - Cryptographic verification without exposure
+- [Platform Features](./features) - Signals, use cases, and integrations
 - [Architecture](./tech-stack) - Technical foundation
 - [Vision](./vision) - Where we are heading
 
 ## Connect With Us
 
-- [Official Website](https://myradhq.xyz)
-- [GitHub Repository](https://github.com/Myrad-Labs/MYRAD)
+- [Official Website](https://Myradhq.xyz)
 - [Telegram](https://t.me/+d0dhyHWulJU4NTc1)
-- [X (Twitter)](https://x.com/myrad_hq)
+- [X (Twitter)](https://x.com/Myrad_hq)
 
 ---

@@ -1,52 +1,69 @@
 ---
 id: vision
 title: Vision
-description: The mission and future of MYRAD.
+description: Why this model matters and the future of Myrad.
 sidebar_position: 7
 ---
 
 # Vision
 
-MYRAD exists to **return ownership of the data economy to the people who power it**.
+Myrad exists to **return ownership of the data economy to the people who power it**.
 
-We believe the greatest untapped resource in technology is not data itself, but the trust and consent of the individuals who create it. MYRAD unlocks both.
+We believe the greatest untapped resource in technology is not data itself, but the trust and consent of the individuals who create it. Myrad unlocks both.
+
+---
+
+## Why This Model Matters
+
+As automation and AI expand, human behavior becomes the grounding truth for intelligent systems. However, trust, legality, and ethics will increasingly determine which data can be used.
+
+Myrad represents a shift:
+
+| From | To |
+| --- | --- |
+| **Data hoarding** | Signal sharing |
+| **Surveillance** | Consent |
+| **Raw logs** | Human meaning |
 
 ---
 
 ## Our Mission
 
-Build the world's first platform where:
+Build the next generation of human data infrastructure where:
 
-- **Privacy is guaranteed** by mathematics, not corporate policy
+- **Privacy is guaranteed** by cryptography, not corporate policy
 - **Rewards flow** to the individuals who generate value
 - **Verification replaces** blind trust in intermediaries
-
-We combine zero knowledge cryptography with intuitive design to create a new relationship between people and their data. One where privacy and profit coexist.
+- **Signals provide** human-grounded inputs for AI and product decisions
 
 ---
 
 ## Long-Term Vision
 
 ### Empower Individuals Globally
-Enable anyone, anywhere to monetize their digital footprint without sacrificing security or privacy.
+Enable anyone, anywhere to contribute verified activity without sacrificing security or privacy.
 
 ### Expand Verified Intelligence
-Add more platforms, more data types, and more ways to earn while maintaining the same cryptographic guarantees.
+Add more platforms, more data types, and more ways to earn while maintaining the same privacy guarantees.
 
 ### Build the Enterprise Standard
-Become the default source for verified, consent-based consumer intelligence that outperforms surveillance derived data.
+Become the default source for verified, consent-based behavior signals that outperform surveillance-derived data.
 
 ### Establish Data Sovereignty
 Create a world where individuals control their data destiny. They choose what to share, when to share it, and receive fair compensation for their contributions.
 
 ---
 
-## Why This Matters
+## The Challenge Ahead
 
-Data powers every major technology wave from social networks to artificial intelligence. Yet ownership remains concentrated in the hands of corporations.
+Human behavior will remain a core input for intelligent systems and product decisions. The challenge is not collecting more data, but collecting better data responsibly.
 
-MYRAD exists to change that permanently.
+Myrad provides a new path forward. One where users retain dignity, organizations gain clarity, and trust becomes a first-class feature.
 
-We are building the foundation for a **privacy first intelligence economy**, where individuals do not just create value. They own it, control it, and profit from it.
+---
 
-The future of consumer insights belongs to the people who generate them.
+## About Myrad
+
+Myrad is building the next generation of human data.
+
+**Verified. Aggregated. Privacy first.**

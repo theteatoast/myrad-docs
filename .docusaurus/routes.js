@@ -4,90 +4,102 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '153'),
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'a43'),
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '238'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '041'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '3e9'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '998'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '92f'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'c0b'),
+    component: ComponentCreator('/', '1d7'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'b09'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/features',
-        component: ComponentCreator('/features', '77d'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/how-it-works',
-        component: ComponentCreator('/how-it-works', 'bda'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/introduction',
-        component: ComponentCreator('/introduction', '9bc'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/problem-statement',
-        component: ComponentCreator('/problem-statement', '7c6'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/tech-stack',
-        component: ComponentCreator('/tech-stack', 'b7f'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/vision',
-        component: ComponentCreator('/vision', '1b5'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/zero-knowledge',
-        component: ComponentCreator('/zero-knowledge', '84e'),
-        exact: true,
-        sidebar: "docs"
+        component: ComponentCreator('/', '699'),
+        routes: [
+          {
+            path: '/',
+            component: ComponentCreator('/', 'dee'),
+            routes: [
+              {
+                path: '/features',
+                component: ComponentCreator('/features', '6f4'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/how-it-works',
+                component: ComponentCreator('/how-it-works', '954'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/introduction',
+                component: ComponentCreator('/introduction', 'f62'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/problem-statement',
+                component: ComponentCreator('/problem-statement', '22e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/tech-stack',
+                component: ComponentCreator('/tech-stack', 'eda'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/vision',
+                component: ComponentCreator('/vision', '192'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/zero-knowledge',
+                component: ComponentCreator('/zero-knowledge', '135'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/',
+                component: ComponentCreator('/', 'bea'),
+                exact: true,
+                sidebar: "docs"
+              }
+            ]
+          }
+        ]
       }
     ]
   },

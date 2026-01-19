@@ -63,49 +63,49 @@
     "features": {
       "id": "features",
       "title": "Platform Features",
-      "description": "MYRAD capabilities, reward system, and supported integrations.",
+      "description": "Human behavior signals, use cases, and supported integrations.",
       "sidebar": "docs"
     },
     "how-it-works": {
       "id": "how-it-works",
       "title": "How It Works",
-      "description": "The MYRAD verification and rewards flow for users and businesses.",
+      "description": "The Myrad verification and participation model for users and businesses.",
       "sidebar": "docs"
     },
     "index": {
       "id": "index",
       "title": "",
-      "description": "Welcome to MYRAD, the world's first zero knowledge verified consumer insights platform.",
+      "description": "Verified Human Data Without Collecting Personal Information",
       "sidebar": "docs"
     },
     "introduction": {
       "id": "introduction",
       "title": "Introduction",
-      "description": "Discover MYRAD, the world's first zero-knowledge verified consumer insights platform.",
+      "description": "Discover Myrad - verified human data without collecting personal information.",
       "sidebar": "docs"
     },
     "problem-statement": {
       "id": "problem-statement",
       "title": "The Problem",
-      "description": "Why the current data economy is broken and how MYRAD fixes it.",
+      "description": "Why current data systems fail and how Myrad provides a new path forward.",
       "sidebar": "docs"
     },
     "tech-stack": {
       "id": "tech-stack",
       "title": "Architecture",
-      "description": "Technical foundation powering MYRAD's verified insights platform.",
+      "description": "Technical foundation powering Myrad's verified behavior signals platform.",
       "sidebar": "docs"
     },
     "vision": {
       "id": "vision",
       "title": "Vision",
-      "description": "The mission and future of MYRAD.",
+      "description": "Why this model matters and the future of Myrad.",
       "sidebar": "docs"
     },
     "zero-knowledge": {
       "id": "zero-knowledge",
       "title": "Zero Knowledge Technology",
-      "description": "The cryptographic foundation that powers MYRAD's verified insights.",
+      "description": "Cryptographic verification that powers Myrad's privacy-first approach.",
       "sidebar": "docs"
     }
   }

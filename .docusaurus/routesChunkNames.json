@@ -1,84 +1,90 @@
 {
-  "/__docusaurus/debug-153": {
+  "/__docusaurus/debug-5ff": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/config-a43": {
+  "/__docusaurus/debug/config-5ba": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/content-238": {
+  "/__docusaurus/debug/content-a2b": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
   },
-  "/__docusaurus/debug/globalData-041": {
+  "/__docusaurus/debug/globalData-c3c": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/metadata-3e9": {
+  "/__docusaurus/debug/metadata-156": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/registry-998": {
+  "/__docusaurus/debug/registry-88c": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/routes-92f": {
+  "/__docusaurus/debug/routes-000": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-7-b-ab9"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/-c0b": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+  "/-1d7": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---26-b-6b6"
-    },
-    "versionMetadata": "versionMetadata---935-fcf"
+      "plugin": "plugin---aba-d70"
+    }
   },
-  "/-b09": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---c-37-d02"
+  "/-699": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---22-d-307"
   },
-  "/features-77d": {
+  "/-dee": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/features-6f4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-1-a-2-4f9"
   },
-  "/how-it-works-bda": {
+  "/how-it-works-954": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---how-it-works-761-341"
   },
-  "/introduction-9bc": {
+  "/introduction-f62": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---introductiona-09-926"
   },
-  "/problem-statement-7c6": {
+  "/problem-statement-22e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---problem-statemente-8-b-c36"
   },
-  "/tech-stack-b7f": {
+  "/tech-stack-eda": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---tech-stack-40-c-414"
   },
-  "/vision-1b5": {
+  "/vision-192": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---visionae-4-562"
   },
-  "/zero-knowledge-84e": {
+  "/zero-knowledge-135": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---zero-knowledgebb-2-537"
+  },
+  "/-bea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---c-37-d02"
   }
 }

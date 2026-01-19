@@ -1,20 +1,20 @@
 {
-  "unversionedId": "problem-statement",
   "id": "problem-statement",
   "title": "The Problem",
-  "description": "Why the current data economy is broken and how MYRAD fixes it.",
+  "description": "Why current data systems fail and how Myrad provides a new path forward.",
   "source": "@site/docs/problem-statement.md",
   "sourceDirName": ".",
   "slug": "/problem-statement",
   "permalink": "/problem-statement",
   "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
     "id": "problem-statement",
     "title": "The Problem",
-    "description": "Why the current data economy is broken and how MYRAD fixes it.",
+    "description": "Why current data systems fail and how Myrad provides a new path forward.",
     "sidebar_position": 2
   },
   "sidebar": "docs",

@@ -1,20 +1,20 @@
 {
-  "unversionedId": "vision",
   "id": "vision",
   "title": "Vision",
-  "description": "The mission and future of MYRAD.",
+  "description": "Why this model matters and the future of Myrad.",
   "source": "@site/docs/vision.md",
   "sourceDirName": ".",
   "slug": "/vision",
   "permalink": "/vision",
   "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
   "frontMatter": {
     "id": "vision",
     "title": "Vision",
-    "description": "The mission and future of MYRAD.",
+    "description": "Why this model matters and the future of Myrad.",
     "sidebar_position": 7
   },
   "sidebar": "docs",
