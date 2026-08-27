@@ -1,7 +1,7 @@
 {
   "id": "vision",
   "title": "Vision",
-  "description": "Why this model matters and the future of Myrad.",
+  "description": "Why this model matters and the future of MYRAD.",
   "source": "@site/docs/vision.md",
   "sourceDirName": ".",
   "slug": "/vision",
@@ -14,12 +14,12 @@
   "frontMatter": {
     "id": "vision",
     "title": "Vision",
-    "description": "Why this model matters and the future of Myrad.",
+    "description": "Why this model matters and the future of MYRAD.",
     "sidebar_position": 7
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Architecture",
-    "permalink": "/tech-stack"
+    "title": "Privacy & Safety",
+    "permalink": "/talk-to-myrad/privacy"
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "problem-statement",
   "title": "The Problem",
-  "description": "Why current data systems fail and how Myrad provides a new path forward.",
+  "description": "Why current data systems fail and how MYRAD provides a new path forward.",
   "source": "@site/docs/problem-statement.md",
   "sourceDirName": ".",
   "slug": "/problem-statement",
@@ -14,7 +14,7 @@
   "frontMatter": {
     "id": "problem-statement",
     "title": "The Problem",
-    "description": "Why current data systems fail and how Myrad provides a new path forward.",
+    "description": "Why current data systems fail and how MYRAD provides a new path forward.",
     "sidebar_position": 2
   },
   "sidebar": "docs",

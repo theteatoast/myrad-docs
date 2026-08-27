@@ -1,97 +1,77 @@
 ---
 id: features
 title: Platform Features
-description: Human behavior signals, use cases, and supported integrations.
-sidebar_position: 5
+description: Human behavior signals, supported integrations, and privacy guarantees.
+sidebar_position: 6
 ---
 
 # Platform Features
 
-Myrad transforms verified digital activity into decision-ready human behavior signals.
+MYRAD transforms verified digital activity into decision-ready human behavior signals. These signals are the core data product that contributors and organizations build on.
 
 ---
 
 ## What is a Human Behavior Signal
 
-A human behavior signal is a small, structured representation of how people typically behave under certain conditions.
+A human behavior signal is a small, structured representation of how people typically behave under certain conditions. It describes a **group**, never a person.
 
 ### Examples
 
 | Signal Type | What It Describes |
 | --- | --- |
 | **Order Frequency** | How often users order food per month |
-| **Consumption Peaks** | When video consumption peaks during the day |
-| **Price Sensitivity** | How sensitive users are to pricing changes |
+| **Consumption Peaks** | When streaming activity peaks during the day |
+| **Price Sensitivity** | How responsive users are to pricing changes |
 | **Retention Patterns** | How many users return after an initial action |
 
-Signals are compact, interpretable, easy to integrate, and easy to explain to stakeholders.
+Signals are compact, interpretable, and easy to integrate.
 
 ---
 
-## Use Cases
+## Supported Integrations
 
-### For Product and Growth Teams
+Contributors verify their real activity from the apps they already use. Each connected app unlocks more signals for the platform, and more to ask about in [Talk to Myrad](./talk-to-myrad/overview).
 
-Myrad signals help teams:
-
-- Set realistic benchmarks
-- Validate assumptions
-- Plan feature roadmaps
-- Reduce experimentation risk
-
-### For AI and ML Teams
-
-Signals provide:
-
-- Human-grounded baselines
-- Safer training references
-- Evaluation benchmarks
-- Reduced reliance on synthetic or scraped data
-
-### For Research and Strategy Teams
-
-Myrad offers:
-
-- Defensible behavioral insights
-- Faster market understanding
-- Privacy-safe alternatives to surveys
-
----
-
-## Supported Platforms
-
-| Platform | Data Type | Status |
+| App | Data Type | Status |
 | --- | --- | --- |
-| **Zomato** | Order History | ✅ Live |
-| **GitHub** | Developer Profile | ✅ Live |
-| **Netflix** | Watch History & Ratings | ✅ Live |
+| **Zomato** | Food orders | ✅ Live |
+| **GitHub** | Developer profile | ✅ Live |
+| **Netflix** | Watch history | ✅ Live |
+| **Uber Eats** | Food delivery | ✅ Live |
+| **Uber Rides** | Ride trips | ✅ Live |
+| **Strava** | Fitness activity | ✅ Live |
+| **Zepto** | Grocery orders | ✅ Live |
+| **Blinkit** | Grocery orders | ✅ Live |
+| **Flipkart** | Shopping | ✅ Live |
+| **Spotify** | Music listening | ✅ Live |
 | **More** | Expanding | 📍 Roadmap |
+
+Every integration follows the same rule: activity is verified with a zero-knowledge proof, and the raw data never leaves the contributor's device.
 
 ---
 
 ## Privacy and Compliance
 
-Myrad is built with privacy as the foundation, not an afterthought.
+MYRAD is built with privacy as the foundation, not an afterthought.
 
 | Guarantee | Implementation |
 | --- | --- |
 | **No raw data retention** | We never see, store, or process personal data |
 | **No personal identifiers** | Outputs contain no PII |
 | **Cohort aggregation** | All signals represent group behavior |
-| **Minimum k-anonymity** | Thresholds enforced at system level |
+| **k-anonymity thresholds** | Minimum cohort sizes enforced at the system level |
 | **GDPR and CCPA compatible** | Compliance by design |
+| **Consent-first** | Contribution is explicit opt-in and reversible |
 
-These constraints are enforced at the system level.
+These constraints are enforced at the system level, not left to policy.
 
 ---
 
-## Enterprise API
+## Where Signals Go
 
-For businesses seeking verified, consent-based behavior signals.
+Verified signals serve two audiences:
 
-| Capability | Description |
-| --- | --- |
-| **RESTful Endpoints** | Standard API with intelligent rate limiting |
-| **Aggregated Analytics** | Behavioral patterns without individual tracking |
-| **Demographic Segments** | Queryable consumer cohorts |
-| **Compliance Documentation** | Full GDPR and CCPA compliance materials |
+- **Contributors** earn points and rewards for producing them. See [Points & Rewards](./points-and-rewards).
+- **Organizations** consume them as verified, privacy-safe datasets. See [For Enterprises](./for-enterprises).
+
+Through [Talk to Myrad](./talk-to-myrad/overview), anyone can also explore anonymized crowd patterns, or their own data, in plain language.

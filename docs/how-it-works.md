@@ -1,89 +1,76 @@
 ---
 id: how-it-works
 title: How It Works
-description: The Myrad verification and participation model for users and businesses.
+description: The MYRAD verification and participation model for contributors and businesses.
 sidebar_position: 3
 ---
 
 # How It Works
 
-Myrad uses a privacy-first verification system built for both users and enterprises.
+MYRAD uses a privacy-first verification system built for both contributors and organizations.
 
-Verification happens on the user's device.  
-Only cryptographic proof results are shared.  
-Raw data never leaves the user.
+Verification happens on your device. Only cryptographic proof results are shared. **Raw data never leaves you.**
 
 ---
 
-## User Participation Model
-
-Myrad is designed so individuals benefit without exposure.
-
-### What Users Do
-
-| Action | Description |
-| --- | --- |
-| **Contribute verified activity** | Connect apps and verify digital activity |
-| **Never submit raw data** | Data stays on device, only proofs are shared |
-| **Earn points and rewards** | Every verified contribution is compensated |
-| **Opt out at any time** | Participation is voluntary and reversible |
+## The Contributor Journey
 
 Participation is voluntary, transparent, and reversible.
 
+| Action | Description |
+| --- | --- |
+| **Contribute verified activity** | Connect a supported app and verify your real activity |
+| **Never submit raw data** | Data stays on your device; only proofs are shared |
+| **Earn points and rewards** | Every verified contribution is compensated |
+| **Opt out at any time** | Sharing is explicit opt-in, and you can remove your data |
+
 ---
 
-## For Users
-
-### Your Privacy Guarantees
+## Your Privacy Guarantees
 
 :::info What We Promise
-- **We never store your raw data**  
-- **Your data becomes anonymous signals**  
-- **You earn without being tracked**  
-- **You can leave anytime**  
+- **We never store your raw data**
+- **Your data becomes anonymous, aggregated signals**
+- **You earn without being tracked or profiled**
+- **You can opt out and remove your data anytime**
 :::
 
 ---
 
-### Step 1: Quick Onboarding
+### Step 1: Sign In
 
-Sign up using email or social login.  
-No wallets, no technical setup.
-
----
+Create your account with **Privy** using email, a social login, or a wallet. No technical setup is required, and no wallet is needed to start contributing.
 
 ### Step 2: Connect Your Apps
 
-Connect apps like **Zomato**, **GitHub**, or **Netflix**.
+Connect any supported app you already use. Verification is powered by the **Reclaim Protocol** and runs locally on your device. Your raw data is never accessed or stored.
 
-Verification is powered by Reclaim Protocol and runs locally on your device.  
-Your raw data is never accessed or stored.
-
----
+- **On desktop**, scan a QR code to complete verification from your phone.
+- **On mobile**, tap through the flow directly in your browser.
 
 ### Step 3: Privacy-First Verification
 
-A **cryptographic proof** confirms your activity is real without revealing:
-- Personal details  
-- Activity history  
-- Account data  
-
-Only anonymous proof results are generated.
-
----
+A **zero-knowledge proof** confirms your activity is real without revealing your personal details, activity history, or account data. Only the anonymous proof result is generated. See [Zero-Knowledge Verification](./zero-knowledge) for the full picture.
 
 ### Step 4: Earn Rewards
 
-Each successful verification earns you points.  
-No profiles. No tracking. No surveillance.
+Each successful verification earns points. Keep a **streak** going, **refer friends**, play the **Lucky Spin**, open **Inbox** reward cards, and redeem points in the **Store**. Your standing is reflected on the **leaderboard**, your **profile**, and the public **metrics** page.
 
-Rewards update in real time and can be redeemed anytime.
+Rewards update in real time. Learn more in [Points & Rewards](./points-and-rewards) and [Token & Staking](./token).
 
 ---
 
-## How to Contribute
+## Supported Apps
 
-### Watch the Tutorial
+Verify your real activity from the apps you already use:
+
+**Zomato, GitHub, Netflix, Uber Eats, Uber Rides, Strava, Zepto, Blinkit, Flipkart, Spotify**
+
+More integrations are added over time. See [Platform Features](./features) for what each app contributes.
+
+---
+
+## Watch the Tutorial
 
 <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
   <video
@@ -99,58 +86,34 @@ Rewards update in real time and can be redeemed anytime.
   </video>
 </div>
 
----
+### Contribution at a glance
 
-### Contribution Steps
-
-- Install the **Reclaim verified app** (Play Store / App Store)  
-- Connect supported accounts anonymously  
-- Complete verification securely  
-- Submit verified proofs  
-- Earn points for each valid contribution  
-- Climb the leaderboard  
+- Sign in with email, social, or wallet
+- Connect a supported app (QR from desktop, tap-through on mobile)
+- Complete on-device, zero-knowledge verification
+- Submit your verified proof
+- Earn points for each valid contribution
+- Climb the leaderboard and redeem in the Store
 
 ---
 
-## For Enterprises
+## For Organizations
 
-Myrad provides verified human behavior signals without exposing user data.
-
-### Enterprise Guarantees
+MYRAD provides verified human behavior signals without ever exposing user data.
 
 :::tip Enterprise Assurance
-- **No PII**: Personal identifiers never included  
-- **No user profiles**: No individual-level access  
-- **Aggregated only**: Cohort-based outputs  
-- **Auditable pipeline**: Full transparency  
+- **No PII**: personal identifiers are never included
+- **No user profiles**: no individual-level access
+- **Aggregated only**: cohort-based outputs
+- **Auditable pipeline**: verification you can trust
 :::
 
----
-
-### What Enterprises Get
-
-| Capability | Description |
-| --- | --- |
-| **API Access** | Aggregated, privacy-safe signals via APIs |
-| **Proof-Backed Data** | Every signal is cryptographically verified |
-| **Consent-First** | All data is opt-in by design |
-| **Compliance-Ready** | Built for GDPR, CCPA, and future regulations |
-
----
-
-### Delivered Value
-
-- Verified human behavior in **aggregated form only**  
-- No tracking or individual-level access  
-- Ethical, consent-driven data sourcing  
-- Full transparency through an auditable pipeline  
+Organizations receive verified behavior in **aggregated form only**, sourced with consent. For the full enterprise picture, including use cases, delivery, and compliance, see [For Enterprises](./for-enterprises).
 
 ---
 
 ## The Privacy-First Flow
 
-![Myrad Workflow](/img/workflow.jpeg)
+![MYRAD Workflow](/img/workflow.jpeg)
 
-Verification happens on the user's device.  
-Only proof results are shared.  
-Raw data never leaves the user.
+Verification happens on your device. Only proof results are shared. Raw data never leaves you.

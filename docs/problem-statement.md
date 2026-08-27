@@ -1,7 +1,7 @@
 ---
 id: problem-statement
 title: The Problem
-description: Why current data systems fail and how Myrad provides a new path forward.
+description: Why current data systems fail and how MYRAD provides a new path forward.
 sidebar_position: 2
 ---
 
@@ -47,13 +47,11 @@ Individuals generate high-quality behavioral data through everyday digital activ
 
 Today, this value is captured almost entirely by platforms, while users receive little control or benefit.
 
-This imbalance is unsustainable.
-
 ---
 
-## Myrad Rewrites the Rules
+## MYRAD Rewrites the Rules
 
-Myrad introduces a new paradigm:
+MYRAD introduces a new paradigm:
 
 | Shift | What Changes |
 | --- | --- |
@@ -61,6 +59,4 @@ Myrad introduces a new paradigm:
 | **From surveillance** | To consent |
 | **From raw logs** | To human meaning |
 
-We do not fix the old system. We replace it with something fundamentally better.
-
-Organizations get verified, privacy-safe signals. Users retain control and earn rewards. Trust becomes a first-class feature.
+MYRAD replaces the old model rather than patching it. Organizations get verified, privacy-safe signals. Users retain control and earn rewards.

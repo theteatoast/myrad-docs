@@ -1,7 +1,7 @@
 {
   "id": "index",
   "title": "",
-  "description": "Verified Human Data Without Collecting Personal Information",
+  "description": "Verified human data. Proven with zero-knowledge proofs, shared only as aggregates.",
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",

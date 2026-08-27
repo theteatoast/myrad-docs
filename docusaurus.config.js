@@ -1,7 +1,7 @@
 // docusaurus.config.js
 module.exports = {
   title: 'MYRAD Docs',
-  tagline: 'Monetize Your Datasets',
+  tagline: 'Proof-verified human data, private by default',
   url: 'https://docs.myradhq.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -41,6 +41,7 @@ module.exports = {
       },
       items: [
         { to: '/', label: 'Docs', position: 'left' },
+        { to: '/talk-to-myrad/overview', label: 'Talk to Myrad', position: 'left' },
         { href: 'https://myradhq.xyz', label: 'Website', position: 'right' },
       ],
     },
@@ -48,11 +49,20 @@ module.exports = {
     footer: {
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
             { label: 'Home', to: '/' },
-            { label: 'Problem Statement', to: '/problem-statement' },
-            { label: 'Architecture', to: '/tech-stack' },
+            { label: 'How It Works', to: '/how-it-works' },
+            { label: 'Token & Staking', to: '/token' },
+            { label: 'For Enterprises', to: '/for-enterprises' },
+          ],
+        },
+        {
+          title: 'Talk to Myrad',
+          items: [
+            { label: 'Overview', to: '/talk-to-myrad/overview' },
+            { label: 'Getting Access', to: '/talk-to-myrad/getting-access' },
+            { label: 'Credits & Billing', to: '/talk-to-myrad/credits' },
           ],
         },
         {

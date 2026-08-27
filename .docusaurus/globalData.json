@@ -16,6 +16,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "for-enterprises",
+              "path": "/for-enterprises",
+              "sidebar": "docs"
+            },
+            {
               "id": "how-it-works",
               "path": "/how-it-works",
               "sidebar": "docs"
@@ -31,13 +36,53 @@
               "sidebar": "docs"
             },
             {
+              "id": "points-and-rewards",
+              "path": "/points-and-rewards",
+              "sidebar": "docs"
+            },
+            {
               "id": "problem-statement",
               "path": "/problem-statement",
               "sidebar": "docs"
             },
             {
+              "id": "talk-to-myrad/credits",
+              "path": "/talk-to-myrad/credits",
+              "sidebar": "docs"
+            },
+            {
+              "id": "talk-to-myrad/getting-access",
+              "path": "/talk-to-myrad/getting-access",
+              "sidebar": "docs"
+            },
+            {
+              "id": "talk-to-myrad/integrations",
+              "path": "/talk-to-myrad/integrations",
+              "sidebar": "docs"
+            },
+            {
+              "id": "talk-to-myrad/modes",
+              "path": "/talk-to-myrad/modes",
+              "sidebar": "docs"
+            },
+            {
+              "id": "talk-to-myrad/overview",
+              "path": "/talk-to-myrad/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "talk-to-myrad/privacy",
+              "path": "/talk-to-myrad/privacy",
+              "sidebar": "docs"
+            },
+            {
               "id": "tech-stack",
               "path": "/tech-stack",
+              "sidebar": "docs"
+            },
+            {
+              "id": "token",
+              "path": "/token",
               "sidebar": "docs"
             },
             {

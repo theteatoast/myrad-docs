@@ -1,15 +1,15 @@
 ---
 id: vision
 title: Vision
-description: Why this model matters and the future of Myrad.
+description: Why this model matters and the future of MYRAD.
 sidebar_position: 7
 ---
 
 # Vision
 
-Myrad exists to **return ownership of the data economy to the people who power it**.
+MYRAD exists to **return ownership of the data economy to the people who power it**.
 
-We believe the greatest untapped resource in technology is not data itself, but the trust and consent of the individuals who create it. Myrad unlocks both.
+The most valuable input to intelligent systems is not raw data, but the trust and consent of the people who create it.
 
 ---
 
@@ -17,7 +17,7 @@ We believe the greatest untapped resource in technology is not data itself, but 
 
 As automation and AI expand, human behavior becomes the grounding truth for intelligent systems. However, trust, legality, and ethics will increasingly determine which data can be used.
 
-Myrad represents a shift:
+MYRAD represents a shift:
 
 | From | To |
 | --- | --- |
@@ -58,12 +58,12 @@ Create a world where individuals control their data destiny. They choose what to
 
 Human behavior will remain a core input for intelligent systems and product decisions. The challenge is not collecting more data, but collecting better data responsibly.
 
-Myrad provides a new path forward. One where users retain dignity, organizations gain clarity, and trust becomes a first-class feature.
+MYRAD provides a path where users retain control, organizations gain clarity, and every signal is verified.
 
 ---
 
-## About Myrad
+## About MYRAD
 
-Myrad is building the next generation of human data.
+MYRAD is building the next generation of human data.
 
 **Verified. Aggregated. Privacy first.**

@@ -5,7 +5,7 @@
  */
 export default {
   "title": "MYRAD Docs",
-  "tagline": "Monetize Your Datasets",
+  "tagline": "Proof-verified human data, private by default",
   "url": "https://docs.myradhq.xyz",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -17,12 +17,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\Anindya Roy\\Desktop\\myrad-docs\\sidebars.js",
+          "sidebarPath": "/Users/andy/Desktop/myrad-docs/sidebars.js",
           "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\Users\\Anindya Roy\\Desktop\\myrad-docs\\src\\css\\custom.css"
+          "customCss": "/Users/andy/Desktop/myrad-docs/src/css/custom.css"
         }
       }
     ]
@@ -47,6 +47,11 @@ export default {
           "position": "left"
         },
         {
+          "to": "/talk-to-myrad/overview",
+          "label": "Talk to Myrad",
+          "position": "left"
+        },
+        {
           "href": "https://myradhq.xyz",
           "label": "Website",
           "position": "right"
@@ -57,19 +62,40 @@ export default {
     "footer": {
       "links": [
         {
-          "title": "Docs",
+          "title": "Documentation",
           "items": [
             {
               "label": "Home",
               "to": "/"
             },
             {
-              "label": "Problem Statement",
-              "to": "/problem-statement"
+              "label": "How It Works",
+              "to": "/how-it-works"
             },
             {
-              "label": "Architecture",
-              "to": "/tech-stack"
+              "label": "Token & Staking",
+              "to": "/token"
+            },
+            {
+              "label": "For Enterprises",
+              "to": "/for-enterprises"
+            }
+          ]
+        },
+        {
+          "title": "Talk to Myrad",
+          "items": [
+            {
+              "label": "Overview",
+              "to": "/talk-to-myrad/overview"
+            },
+            {
+              "label": "Getting Access",
+              "to": "/talk-to-myrad/getting-access"
+            },
+            {
+              "label": "Credits & Billing",
+              "to": "/talk-to-myrad/credits"
             }
           ]
         },
